@@ -1,594 +1,174 @@
-<!doctype html>
-<html class="theme-next use-motion theme-next-next">
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
 <head>
-  
 
-<meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+	<title> lekee </title>
+	<meta property="og:title" content=" lekee " />
+	<meta name="twitter:title" content=" lekee ">
 
+	<meta property="og:type" content="article">
+	<meta name="twitter:card" content="summary">
 
+	<meta name="description" content=" lekee ">
+	<meta property="og:description" content=" lekee " />
+	<meta name="twitter:description" content=" lekee " />
 
-  <link rel="stylesheet" type="text/css" href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5"/>
+	<link rel="icon" type="image/x-icon" href="http://lekee.cc/asset/img/favicon.png">
 
+	<link rel="image_src" href="http://lekee.cc/asset/img/logo.png" >
+	<meta property="og:image" content="http://lekee.cc/asset/img/logo.png" />
 
-<link rel="stylesheet" type="text/css" href="/css/main.css?v=0.4.1"/>
+	<link href="http://lekee.cc/atom.xml" title="lekee" type="application/atom+xml" rel="alternative">
 
+	<link rel="canonical" href="/archives/2015/04/index.html">
 
-    <meta name="description" content="IT，技术，有我的流水。" />
+	<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.19.3/css/semantic.min.css">
+	<link rel="stylesheet" href="/asset/css/style.css">
 
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.19.3/javascript/semantic.min.js"></script>
 
-
-
-    <meta name="keywords" content="Hexo,next" />
-
-
-
-
-
-    <link rel="shorticon icon" type="image/x-icon" href="/favicon.ico?v=0.4.1" />
-
-
-
-
-  <title> 歸檔 // lekee </title>
 </head>
 
 <body>
-  <div class="container one-column  page-archive ">
-    <div class="headband"></div>
 
-    <div id="header" class="header">
-      <div class="header-inner">
-        <h1 class="site-meta">
-  <span class="logo-line-before"><i></i></span>
-  <a href="/" class="brand">
-      <span class="logo">
-        <i class="icon-logo"></i>
-      </span>
-      <span class="site-title">lekee</span>
-  </a>
-  <span class="logo-line-after"><i></i></span>
-</h1>
 
+	<div class="layout-header">
+		<div class="ui fixed transparent inverted main menu panel-header">
+			<div class="container box-header">
+				<div class="title item header-item">
+					<a href="/" title="一个新的生命的开始，记录所有的工作流水。">lekee</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="layout-menu">
+
+		<nav class="ui transparent vertical inverted labeled icon menu">
+
+			<a class="item" href="/">
+				<i class="home icon"></i>
+				Home
+			</a>
+
+			<a class="item" href="/archives">
+				<i class="sitemap icon"></i>
+				Sitemap
+			</a>
+
+			<a class="item" href="/page/">
+				<i class="browser icon"></i>
+				Page
+			</a>
+
+		</nav>
+
+	</div>
+
+	<div class="layout-menu-footer">
+
+		<nav class="ui transparent inverted menu">
+
+			<a class="item" href="/">
+				<i class="home icon"></i>
+				Home
+			</a>
+
+			<a class="item" href="/archives">
+				<i class="sitemap icon"></i>
+				Sitemap
+			</a>
+
+			<a class="item" href="/page/">
+				<i class="browser icon"></i>
+				Page
+			</a>
+
+		</nav>
+
+	</div>
+
+
+
+	<div class="layout-content">
+.box-archive-list {
+  margin: 0 auto;
+  width: 90%;
+}
+.box-archive-list li {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border-bottom: border-default;
+}
+.box-archive-item-date {
+  position: relative;
+  float: right;
+}
+.box-archive-item-description {
+  padding-top: block-30;
+  padding-bottom: block-10;
+}
+.panel-archive-index-title {
+  margin-bottom: block-40;
+}
+.box-archive-index {
+  margin: 0 auto;
+  width: 90%;
+}
+[class*='col-'] {
+  float: left;
+  padding: 0 5px;
+}
+[class*='col-'] +:first-child {
+  padding: 0 5px 0 0;
+}
+[class*='col-'] +:last-child {
+  padding: 0 0 0 5px;
+}
+.box-archive-index h3 {
+  border-bottom: border-default;
+  padding-bottom: block-10;
+  margin-bottom: block-20;
+  text-transform: uppercase;
+  font-size: font-small;
+  letter-spacing: 2px;
+}
+.box-archive-index ul {
+  padding-left: 15px;
+  line-height: 2;
+}
+.box-archive-index span {
+  font-size: font-small;
+  position: relative;
+  top: -1px;
+  color: color-grey;
+}
+.box-archive-index span:before {
+  content: " - ";
+}
+
+	</div>
+
+	<div class="layout-footer" style="clear: both">
+		<div class="panel-footer">
+			<div class="box-footer">
+				<footer class="footer">
+					<p class="cr">&copy; 2015 <a href="https://github.com/foreachsam/"  target="_blank">rockts</a> </p>
+
+					<span class="theme">Powered: <a href="http://hexo.io/" target="_blank">Hexo</a>, Theme: <a href="https://github.com/foreachsam/hexo-theme-aiki" target="_blank">Aiki</a></span>
+				</footer>
+			</div>
+		</div>
+	</div>
 
-  <ul id="menu" class="menu">
-    
-    
-      
-      <li class="menu-item menu-item-home">
-        <a href="/">
-          <i class="menu-item-icon icon-home"></i> <br />
-          首頁
-        </a>
-      </li>
-    
-      
-      <li class="menu-item menu-item-categories">
-        <a href="/categories">
-          <i class="menu-item-icon icon-categories"></i> <br />
-          分類
-        </a>
-      </li>
-    
-      
-      <li class="menu-item menu-item-archives">
-        <a href="/archives">
-          <i class="menu-item-icon icon-archives"></i> <br />
-          歸檔
-        </a>
-      </li>
-    
-      
-      <li class="menu-item menu-item-tags">
-        <a href="/tags">
-          <i class="menu-item-icon icon-tags"></i> <br />
-          標籤
-        </a>
-      </li>
-    
-      
-      <li class="menu-item menu-item-about">
-        <a href="/about">
-          <i class="menu-item-icon icon-about"></i> <br />
-          關於
-        </a>
-      </li>
-    
-  </ul>
 
 
-      </div>
-    </div>
 
-    <div id="main" class="main">
-      <div class="main-inner">
-        <div id="content" class="content">
-          
-            
-          
-
-          <div id="posts" class="posts-collapse">
-            
-
-  <span class="archive-move-on"></span>
-
-  <span class="archive-page-counter">
-    
-    
-     
-    
-    嗯..! 目前共計 3 篇文章。 繼續努力。
-  </span>
-
-  
-
-    
-    
-    
-
-    
-      
-      <div class="collection-title">
-        <h2 class="archive-year motion-element" id="archive-year-2015">2015</h2>
-      </div>
-    
-    
-
-    
-
-  <div class="post post-type-normal ">
-    <div class="post-header">
-
-      
-      
-        <h1 class="post-title">
-          
-          
-            
-              <a class="post-title-link" href="/2015/04/06/今天有点冷/">
-                今天有点冷
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          
-            04-06
-          
-        </span>
-
-        
-
-        
-          
-        
-      </div>
-    </div>
-
-    
-
-    
-  </div>
-
-
-
-  
-
-    
-    
-    
-
-    
-    
-
-    
-
-  <div class="post post-type-normal ">
-    <div class="post-header">
-
-      
-      
-        <h1 class="post-title">
-          
-          
-            
-              <a class="post-title-link" href="/2015/04/04/技术报告/">
-                技术报告
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          
-            04-03
-          
-        </span>
-
-        
-
-        
-          
-        
-      </div>
-    </div>
-
-    
-
-    
-  </div>
-
-
-
-  
-
-    
-    
-    
-
-    
-    
-
-    
-
-  <div class="post post-type-normal ">
-    <div class="post-header">
-
-      
-      
-        <h1 class="post-title">
-          
-          
-            
-              <a class="post-title-link" href="/2015/04/04/hello-world/">
-                Hello World
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          
-            04-03
-          
-        </span>
-
-        
-
-        
-          
-        
-      </div>
-    </div>
-
-    
-
-    
-  </div>
-
-
-
-  
-
-          </div>
-
-          
-        </div>
-
-        
-<div class="sidebar-toggle">
-  <div class="sidebar-toggle-line-wrap">
-    <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
-    <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
-    <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
-  </div>
-</div>
-
-<div id="sidebar" class="sidebar">
-  <div class="sidebar-inner">
-
-    
-
-    <div class="site-overview">
-      <div class="site-author motion-element">
-        <img class="site-author-image" src="/images/default_avatar.jpg" alt="rockts" />
-        <p class="site-author-name">rockts</p>
-      </div>
-      <p class="site-description motion-element">IT，技术，有我的流水。</p>
-      <div class="site-state motion-element">
-        <div class="site-state-item site-state-posts">
-          <a href="/archives">
-            <span class="site-state-item-count">3</span>
-            <span class="site-state-item-name">文章</span>
-          </a>
-        </div>
-
-        <div class="site-state-item site-state-categories">
-          <a href="/categories">
-            <span class="site-state-item-count">0</span>
-            <span class="site-state-item-name">分類</span>
-          </a>
-        </div>
-
-        <div class="site-state-item site-state-tags">
-          <a href="/tags">
-            <span class="site-state-item-count">1</span>
-            <span class="site-state-item-name">標籤</span>
-          </a>
-        </div>
-
-      </div>
-
-      
-
-      <div class="links-of-author motion-element">
-        
-      </div>
-
-      
-      
-
-    </div>
-
-    
-
-  </div>
-</div>
-
-
-      </div>
-    </div>
-
-    <div id="footer" class="footer">
-      <div class="footer-inner">
-        <div class="copyright">
-  
-  &copy; &nbsp; 
-  2015
-  <span class="with-love">
-    <i class="icon-heart"></i>
-  </span>
-  <span class="author">rockts</span>
-</div>
-
-<div class="powered-by">
-  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 強力驅動
-</div>
-
-<div class="theme-info">
-  主題 -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT
-  </a>
-</div>
-
-
-
-      </div>
-    </div>
-
-    <div class="back-to-top"></div>
-  </div>
-
-  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
-
-  
-  
-  
-    <script type="text/javascript">
-      postMotionOptions = {stagger: 100, drag: true};
-    </script>
-  
-
-
-  
-  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function() {
-      $('.content img').each(function () {
-        var $image = $(this);
-        var $imageWrapLink = $image.parent('a');
-
-        if ($imageWrapLink.size() < 1) {
-          $imageWrapLink = $image.wrap('<a href="' + this.getAttribute('src') + '"></a>').parent('a');
-        }
-        $imageWrapLink.addClass('fancybox');
-      });
-    });
-    $('.fancybox').fancybox({
-      helpers: {
-        overlay: {
-          locked: false
-        }
-      }
-    });
-  </script>
-
-
-  <script type="text/javascript">
-  function hasMobileUA () {
-    var nav = window.navigator;
-    var ua = nav.userAgent;
-    var pa = /iPad|iPhone|Android|Opera Mini|BlackBerry|webOS|UCWEB|Blazer|PSP|IEMobile|Symbian/g;
-
-    return pa.test(ua);
-  }
-
-  function isDesktop () {
-    return screen.width > 991 && !hasMobileUA();
-  }
-
-  function isTablet () {
-    return screen.width < 992 && screen.width > 767 && hasMobileUA();
-  }
-
-  function isMobile () {
-    return screen.width < 767 && hasMobileUA();
-  }
-
-  function escapeSelector (selector) {
-    return selector.replace(/[!"$%&'()*+,.\/:;<=>?@[\\\]^`{|}~]/g, "\\$&")
-  }
-</script>
-
-  
-
-  <script type="text/javascript" src="/vendors/velocity/velocity.min.js"></script>
-  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js"></script>
-
-  <script type="text/javascript" id="motion.global">
-  $(document).ready(function () {
-    var body = $('body');
-    var isSidebarVisible = false;
-    var sidebarToggle = $('.sidebar-toggle');
-    var sidebarToggleLine1st = $('.sidebar-toggle-line-first')
-    var sidebarToggleLine2nd = $('.sidebar-toggle-line-middle');
-    var sidebarToggleLine3rd = $('.sidebar-toggle-line-last');
-    var sidebar = $('.sidebar');
-
-    var SIDEBAR_WIDTH = '320px';
-    var SIDEBAR_DISPLAY_DURATION = 300;
-
-    var sidebarToogleLineStatusInit = {width: '100%', opacity: 1, left: 0, rotateZ: 0, top: 0};
-
-    var sidebarToggleLine1stStatusInit = sidebarToogleLineStatusInit;
-    var sidebarToggleLine1stStatusArrow = {width: '50%', rotateZ: '-45deg', top: '2px'};
-    var sidebarToogleLine1stStatusClose = {width: '100%', rotateZ: '-45deg', top: '5px'};
-
-    var sidebarToggleLine2ndStatusInit = sidebarToogleLineStatusInit;
-    var sidebarToggleLine2ndStatusArrow = {width: '90%'};
-    var sidebarToogleLine2ndStatusClose = {opacity: 0};
-
-    var sidebarToggleLine3rdStatusInit = sidebarToogleLineStatusInit;
-    var sidebarToggleLine3rdStatusArrow = {width: '50%', rotateZ: '45deg', top: '-2px'};
-    var sidebarToogleLine3rdStatusClose = {width: '100%', rotateZ: '45deg', top: '-5px'};
-
-    LogoAndMenuMotion();
-    sidebatToggleMotion();
-    postsListMotion();
-    backToTopMotion();
-
-
-    $(document)
-      .on('sidebar.isShowing', function () {
-        isDesktop() && body.velocity(
-          {paddingRight: SIDEBAR_WIDTH},
-          SIDEBAR_DISPLAY_DURATION
-        );
-        sidebarContentMotion();
-      })
-      .on('sidebar.isHiding', function () {});
-
-    function LogoAndMenuMotion() {
-      $.Velocity.RunSequence([
-        { e: $('.brand'), p: { opacity: 1 }, o: { duration: 100 } },
-        { e: $('.logo'), p: { opacity: 1, top: 0 }, o: { duration: 50} },
-        
-        { e: $('.site-title'), p: { opacity: 1, top: 0 }, o: { duration: 200 } }
-      ]);
-      $('.menu-item').velocity('transition.slideDownIn', {display: null});
-    }
-
-
-    function backToTopMotion () {
-      var b2top = $('.back-to-top');
-      b2top.on('click', function () {
-        body.velocity('scroll');
-      });
-    }
-
-    function sidebarShowMotion () {
-
-      sidebarToggleLine1st.velocity(sidebarToogleLine1stStatusClose);
-      sidebarToggleLine2nd.velocity(sidebarToogleLine2ndStatusClose);
-      sidebarToggleLine3rd.velocity(sidebarToogleLine3rdStatusClose);
-
-      sidebar.velocity({width: SIDEBAR_WIDTH}, {
-        display: 'block',
-        duration: SIDEBAR_DISPLAY_DURATION,
-        complete: function () {
-          sidebar.addClass('sidebar-active');
-          sidebar.trigger('sidebar.didShow');
-        }
-      });
-      sidebar.trigger('sidebar.isShowing');
-    }
-
-    function sidebarHideMotion () {
-      isDesktop() && body.velocity({paddingRight: 0});
-      sidebar.velocity('reverse');
-
-      sidebarToggleLine1st.velocity(sidebarToggleLine1stStatusInit);
-      sidebarToggleLine2nd.velocity(sidebarToggleLine2ndStatusInit);
-      sidebarToggleLine3rd.velocity(sidebarToggleLine3rdStatusInit);
-
-      sidebar.removeClass('sidebar-active');
-      sidebar.trigger('sidebar.isHiding');
-    };
-
-    function sidebarContentMotion () {
-      $('.sidebar .motion-element').velocity(
-        'transition.slideRightIn',
-        {stagger: 50, drag: true}
-      );
-    }
-
-    function postsListMotion () {
-      var postMotionOptions = window.postMotionOptions || {stagger: 300, drag: true};
-      $('.post').velocity('transition.slideDownIn', postMotionOptions);
-    }
-
-    function sidebatToggleMotion () {
-      sidebarToggle.on('click', function () {
-        isSidebarVisible ? sidebarHideMotion() : sidebarShowMotion();
-        isSidebarVisible = !isSidebarVisible;
-      });
-
-      sidebarToggle.hover(function () {
-        if (isSidebarVisible) {return}
-        sidebarToggleLine1st.velocity('stop').velocity(sidebarToggleLine1stStatusArrow);
-        sidebarToggleLine2nd.velocity('stop').velocity(sidebarToggleLine2ndStatusArrow);
-        sidebarToggleLine3rd.velocity('stop').velocity(sidebarToggleLine3rdStatusArrow);
-      }, function () {
-        if (isSidebarVisible) {return}
-        sidebarToggleLine1st.velocity('stop').velocity(sidebarToggleLine1stStatusInit);
-        sidebarToggleLine2nd.velocity('stop').velocity(sidebarToggleLine2ndStatusInit);
-        sidebarToggleLine3rd.velocity('stop').velocity(sidebarToggleLine3rdStatusInit);
-      });
-    }
-  });
-
-</script>
-
-
-
-
-
-  
-  
-    <script type="text/javascript" id="motion.page.archive">
-      $('.archive-year').velocity('transition.slideLeftIn');
-    </script>
-  
-
-
-  
-
-  
-  
-
-  
-
-
-  
 </body>
 </html>
