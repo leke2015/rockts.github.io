@@ -4,7 +4,7 @@
   <subtitle><![CDATA[一个新生命的开始，记录所有的工作流水。]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://lekee.cc/"/>
-  <updated>2015-04-09T17:21:43.000Z</updated>
+  <updated>2015-04-09T17:24:15.000Z</updated>
   <id>http://lekee.cc/</id>
   
   <author>
@@ -13,6 +13,25 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[ceshi1]]></title>
+    <link href="http://lekee.cc/2015/04/10/ceshi1/"/>
+    <id>http://lekee.cc/2015/04/10/ceshi1/</id>
+    <published>2015-04-09T17:18:44.000Z</published>
+    <updated>2015-04-09T17:24:15.000Z</updated>
+    <content type="html"><![CDATA[<p>测试图片</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>测试图片</p>
+]]>
+    </summary>
+    
+      <category term="测试" scheme="http://lekee.cc/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+      <category term="测试" scheme="http://lekee.cc/categories/%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[ceshi]]></title>
