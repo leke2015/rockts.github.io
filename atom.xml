@@ -4,7 +4,7 @@
   <subtitle><![CDATA[一个新生命的开始，记录所有的工作流水。]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://lekee.cc/"/>
-  <updated>2015-04-10T08:34:25.000Z</updated>
+  <updated>2015-04-11T09:55:56.000Z</updated>
   <id>http://lekee.cc/</id>
   
   <author>
@@ -13,6 +13,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[lekee终于用评论了]]></title>
+    <link href="http://lekee.cc/2015/04/11/lekee%E7%BB%88%E4%BA%8E%E7%94%A8%E8%AF%84%E8%AE%BA%E4%BA%86/"/>
+    <id>http://lekee.cc/2015/04/11/lekee终于用评论了/</id>
+    <published>2015-04-11T09:52:23.000Z</published>
+    <updated>2015-04-11T09:55:56.000Z</updated>
+    <content type="html"><![CDATA[<p>这个blog再一点点的进化中，今天我给lekee加了多说的评论。<br>以后大家可以用自己的社交账号来评论了。<br>评论的内容还可以同步的自己的社交网站上。<br>真的很方便。我准备给自己的以后的项目都加入这个评论系统。<br>Very good!</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>这个blog再一点点的进化中，今天我给lekee加了多说的评论。<br>以后大家可以用自己的社交账号来评论了。<br>评论的内容还可以同步的自己的社交网站上。<br>真的很方便。我准备给自己的以后的项目都加入这个评论系统。<br>Very good!</p>
+]]>
+    </summary>
+    
+      <category term="多说" scheme="http://lekee.cc/tags/%E5%A4%9A%E8%AF%B4/"/>
+    
+      <category term="评论" scheme="http://lekee.cc/tags/%E8%AF%84%E8%AE%BA/"/>
+    
+      <category term="手上的事" scheme="http://lekee.cc/categories/%E6%89%8B%E4%B8%8A%E7%9A%84%E4%BA%8B/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[新公司的名称里不能带科技两个字]]></title>
