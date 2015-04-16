@@ -4,7 +4,7 @@
   <subtitle><![CDATA[一个新生命的开始，记录所有的工作流水。]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://lekee.cc/"/>
-  <updated>2015-04-15T17:02:56.000Z</updated>
+  <updated>2015-04-16T16:54:30.000Z</updated>
   <id>http://lekee.cc/</id>
   
   <author>
@@ -13,6 +13,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[天水军区政工网第三次的返工]]></title>
+    <link href="http://lekee.cc/2015/04/17/%E5%A4%A9%E6%B0%B4%E5%86%9B%E5%8C%BA%E6%94%BF%E5%B7%A5%E7%BD%91%E7%AC%AC%E4%B8%89%E6%AC%A1%E7%9A%84%E8%BF%94%E5%B7%A5/"/>
+    <id>http://lekee.cc/2015/04/17/天水军区政工网第三次的返工/</id>
+    <published>2015-04-16T16:12:33.000Z</published>
+    <updated>2015-04-16T16:54:30.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="http://source.free-e.net/ts81.png" alt="天水军分区政工网LOGO" title="ts81-logo"><br>首先这次的返工基本没有太大的变动。<br>修改的部分也是由于我前面的忽视所造成的。<br><a id="more"></a><br>因为在第一次返工的时候，首长说要大气。所以我一下把网站的宽度改成了1280。大是大气了，可后面的问题也就来了。<br>在我把网站搬到他们服务器上的时候，我才发现这个确定是错误的，因为根据现在各个单位的电脑配置，这个宽度并不能适应有所电脑的屏幕和所有电脑显卡所能达到的那个分辨率。<br>这个问题是由于我个人前面考虑不足造成的，我愿意承担相应的责任。绝不推赖他人。哈哈。那这次就改成1150吧。<br>应该OK了，在之前我已考察过他们的电脑。屏幕最小的分辨率都在1280<em>1024上。所以1150这样的宽度在1280</em>1024这样的屏幕上依然还是大气的。哈哈～<br>另外有个问题，就是网站搬到服务器上以后，显示首页出现了乱码。这可能和我备份本地网站的时候导出数据库的编码格式有关。<br>我已在本地搭建了和他们服务器相同的虚拟机，用来测试网站最后的性能和最后的显示的效果。<br>最后值得鼓励和推广的是，我给他们做的这个LOGO。首长们一直好评不错，这个好。有创意，有意思。哈哈～</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><img src="http://source.free-e.net/ts81.png" alt="天水军分区政工网LOGO" title="ts81-logo"><br>首先这次的返工基本没有太大的变动。<br>修改的部分也是由于我前面的忽视所造成的。<br>]]>
+    
+    </summary>
+    
+      <category term="logo" scheme="http://lekee.cc/tags/logo/"/>
+    
+      <category term="天水军分区政工网" scheme="http://lekee.cc/tags/%E5%A4%A9%E6%B0%B4%E5%86%9B%E5%88%86%E5%8C%BA%E6%94%BF%E5%B7%A5%E7%BD%91/"/>
+    
+      <category term="网站建设" scheme="http://lekee.cc/tags/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/"/>
+    
+      <category term="手上的事" scheme="http://lekee.cc/categories/%E6%89%8B%E4%B8%8A%E7%9A%84%E4%BA%8B/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[kele-LOGO]]></title>
@@ -41,7 +64,7 @@
     <link href="http://lekee.cc/2015/04/14/%E5%A4%A9%E6%B0%B4%E5%86%9B%E5%8C%BA%E5%88%86%E6%94%BF%E5%B7%A5%E7%BD%91%E6%98%8E%E5%A4%A9%E4%BA%A4%E8%B4%A7/"/>
     <id>http://lekee.cc/2015/04/14/天水军区分政工网明天交货/</id>
     <published>2015-04-13T18:57:37.000Z</published>
-    <updated>2015-04-14T16:48:16.000Z</updated>
+    <updated>2015-04-16T16:12:02.000Z</updated>
     <content type="html"><![CDATA[<p>今天改了一晚上，这次应该差不多了。<br>我发现了一个好东东。logoist mac的app<br>真的不错，解决我的大问题了。哈哈～～～<br><a id="more"></a><br>这次修改提纲：<br>1、修改了原来LOGO，这次全靠logoist。我觉得牛逼极了。<br>2、把标题颜色由原来的绿的改成了橘红色，并且把标题的字也放大了。<br>3、根据上次的要求制作了4个banner和4个小banner，并放到了相应的位置上了。<br>4、对【政工平台】栏目的二级做了一些调整。<br>5、对网站的结构做了一些微调，原因原来有3个banner，现在又多了。所以就把首页政工平台9列表分成6个和3个，中间加了一个banner的位置。<br>这次因该没有什么问题了吧？上帝保佑。<br>明天交货，现在睡觉了喽@！～～～～</p>
 ]]></content>
     <summary type="html">
@@ -50,6 +73,8 @@
     </summary>
     
       <category term="logoist" scheme="http://lekee.cc/tags/logoist/"/>
+    
+      <category term="天水军分区政工网" scheme="http://lekee.cc/tags/%E5%A4%A9%E6%B0%B4%E5%86%9B%E5%88%86%E5%8C%BA%E6%94%BF%E5%B7%A5%E7%BD%91/"/>
     
       <category term="网站建设" scheme="http://lekee.cc/tags/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/"/>
     
@@ -165,13 +190,15 @@
     <link href="http://lekee.cc/2015/04/07/%E5%A4%A9%E6%B0%B4%E5%86%9B%E5%88%86%E5%8C%BA%E6%94%BF%E5%B7%A5%E7%BD%91%E7%AC%AC%E4%BA%8C%E6%AC%A1%E8%BF%94%E5%B7%A5/"/>
     <id>http://lekee.cc/2015/04/07/天水军分区政工网第二次返工/</id>
     <published>2015-04-07T11:30:10.000Z</published>
-    <updated>2015-04-14T16:48:07.000Z</updated>
+    <updated>2015-04-16T16:11:35.000Z</updated>
     <content type="html"><![CDATA[<p>这个网站，这是第二次返工了。第一次返工，我用的960布局，闲页面不够大气。页面的排版有点乱。还要在标题前加个logo。可我必定不是做前端的，所以至于logo的设计。只能是心有余力而力不足了，经过我ps捣鼓半天ts这2个字母，我自觉得比较满意。再听取了首长们的意见后，把页面宽度由960改成1280，结果苦逼的日子开始了。页面的布局全乱了。又经过xxx个日夜。终于弄好了，去掉了n个banner，去掉了页面原来的top图背景。干净多了，也够大气。原本以为可以交货了。<br><a id="more"></a><br>可今天就在我拿去给首长们审查后，结果首长对网站的布局没有挑剔的了，可就是网站标题的非要我把军绿色改成红橙色色，还说logo没有艺术性唉～我勒个去，今天回来后认真想了想问题，继续听取首长的指示，加以改进。个别栏目需要修改。banner又加了一个，并且这次已经规定了banner的内容。<br>我想应该差不多，不知道下一次还需要返工不，保佑我吧～！</p>
 ]]></content>
     <summary type="html">
     <![CDATA[<p>这个网站，这是第二次返工了。第一次返工，我用的960布局，闲页面不够大气。页面的排版有点乱。还要在标题前加个logo。可我必定不是做前端的，所以至于logo的设计。只能是心有余力而力不足了，经过我ps捣鼓半天ts这2个字母，我自觉得比较满意。再听取了首长们的意见后，把页面宽度由960改成1280，结果苦逼的日子开始了。页面的布局全乱了。又经过xxx个日夜。终于弄好了，去掉了n个banner，去掉了页面原来的top图背景。干净多了，也够大气。原本以为可以交货了。<br>]]>
     
     </summary>
+    
+      <category term="天水军分区政工网" scheme="http://lekee.cc/tags/%E5%A4%A9%E6%B0%B4%E5%86%9B%E5%88%86%E5%8C%BA%E6%94%BF%E5%B7%A5%E7%BD%91/"/>
     
       <category term="网站建设" scheme="http://lekee.cc/tags/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/"/>
     
