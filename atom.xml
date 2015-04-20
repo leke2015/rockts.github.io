@@ -4,7 +4,7 @@
   <subtitle><![CDATA[一个新生命的开始，记录所有的工作流水。]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://lekee.cc/"/>
-  <updated>2015-04-20T13:20:37.000Z</updated>
+  <updated>2015-04-20T14:45:25.000Z</updated>
   <id>http://lekee.cc/</id>
   
   <author>
@@ -13,6 +13,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[lekee可以站内搜索了]]></title>
+    <link href="http://lekee.cc/2015/04/20/lekee%E5%8F%AF%E4%BB%A5%E7%AB%99%E5%86%85%E6%90%9C%E7%B4%A2%E4%BA%86/"/>
+    <id>http://lekee.cc/2015/04/20/lekee可以站内搜索了/</id>
+    <published>2015-04-20T14:38:31.000Z</published>
+    <updated>2015-04-20T14:45:25.000Z</updated>
+    <content type="html"><![CDATA[<p>very very cool!<br>刚开始准备用baidu的站内搜索，结果发现了这个<a href="http://tinysou.com" target="_blank">微搜索</a>。结果一用发现这个非常非常棒！<br>开源太强大了，越来越喜欢开源了。<br>这认定这就是我们要做事～<br>大家可以测试！～真的很棒！很牛！<br>我们的lekee又一次进化了。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>very very cool!<br>刚开始准备用baidu的站内搜索，结果发现了这个<a href="http://tinysou.com" target="_blank">微搜索</a>。结果一用发现这个非常非常棒！<br>开源太强大了，越来越喜欢开源了。<br>这认定]]>
+    </summary>
+    
+      <category term="微搜索" scheme="http://lekee.cc/tags/%E5%BE%AE%E6%90%9C%E7%B4%A2/"/>
+    
+      <category term="搜索" scheme="http://lekee.cc/tags/%E6%90%9C%E7%B4%A2/"/>
+    
+      <category term="手上的事" scheme="http://lekee.cc/categories/%E6%89%8B%E4%B8%8A%E7%9A%84%E4%BA%8B/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[天水跳蚤的第一个HTML]]></title>
@@ -46,11 +66,13 @@
     <link href="http://lekee.cc/2015/04/19/%E5%A4%A9%E6%B0%B4%E5%86%9B%E5%88%86%E5%8C%BA%E6%94%BF%E5%B7%A5%E7%BD%91%E4%BA%A4%E4%BB%98%E5%AE%8C%E5%B7%A5/"/>
     <id>http://lekee.cc/2015/04/19/天水军分区政工网交付完工/</id>
     <published>2015-04-19T06:07:51.000Z</published>
-    <updated>2015-04-19T14:45:47.000Z</updated>
-    <content type="html"><![CDATA[<p>经过三次的返工，今早网站已经迁移到了客户的服务器上了。<br>经过服务器配置PHP环境，网站现在已经正常运行了。<br>后续可能客户在维护上有会问题，但我们还是会提供优质的技术支持服务的。<br>网站最终样式<br><img src="http://source.free-e.net/ts81zg.jpg" alt="天水军分区政工网" title="天水军分区政工网"></p>
+    <updated>2015-04-20T14:45:44.000Z</updated>
+    <content type="html"><![CDATA[<p>经过三次的返工，今早网站已经迁移到了客户的服务器上了。<br>经过服务器配置PHP环境，网站现在已经正常运行了。<br>后续可能客户在维护上有会问题，但我们还是会提供优质的技术支持服务的。</p>
+<h2 id="网站最终样式">网站最终样式</h2><p><img src="http://source.free-e.net/ts81zg.jpg" alt="天水军分区政工网" title="天水军分区政工网"></p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>经过三次的返工，今早网站已经迁移到了客户的服务器上了。<br>经过服务器配置PHP环境，网站现在已经正常运行了。<br>后续可能客户在维护上有会问题，但我们还是会提供优质的技术支持服务的。<br>网站最终样式<br><img src="http://source.free-]]>
+    <![CDATA[<p>经过三次的返工，今早网站已经迁移到了客户的服务器上了。<br>经过服务器配置PHP环境，网站现在已经正常运行了。<br>后续可能客户在维护上有会问题，但我们还是会提供优质的技术支持服务的。</p>
+<h2 id="网站最终样式">网站最终样式</h2><p><img src]]>
     </summary>
     
       <category term="天水军分区政工网" scheme="http://lekee.cc/tags/%E5%A4%A9%E6%B0%B4%E5%86%9B%E5%88%86%E5%8C%BA%E6%94%BF%E5%B7%A5%E7%BD%91/"/>
