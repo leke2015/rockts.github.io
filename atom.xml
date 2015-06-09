@@ -4,7 +4,7 @@
   <subtitle><![CDATA[一个新生命的开始，记录所有的工作流水。]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://lekee.cc/"/>
-  <updated>2015-06-09T07:31:33.000Z</updated>
+  <updated>2015-06-09T07:34:09.000Z</updated>
   <id>http://lekee.cc/</id>
   
   <author>
@@ -19,10 +19,14 @@
     <link href="http://lekee.cc/2015/06/09/%E5%88%B0%E5%BA%95%E7%94%A8%E5%93%AA%E4%B8%AA%E5%91%A2%EF%BC%9F/"/>
     <id>http://lekee.cc/2015/06/09/到底用哪个呢？/</id>
     <published>2015-06-09T06:32:20.000Z</published>
-    <updated>2015-06-09T07:31:33.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="Drupal,Wordpress,Laravel这是个问题？">Drupal,Wordpress,Laravel这是个问题？</h2><h3 id="面对强大的Drupal,简单wordpress和神秘的Laravel我犹豫起来了？">面对强大的Drupal,简单wordpress和神秘的Laravel我犹豫起来了？</h3>]]></content>
+    <updated>2015-06-09T07:34:09.000Z</updated>
+    <content type="html"><![CDATA[<p><em>Drupal,Wordpress,Laravel这是个问题？
+</em>面对强大的Drupal,简单wordpress和神秘的Laravel我犹豫起来了？</p>
+]]></content>
     <summary type="html">
-    <![CDATA[<h2 id="Drupal,Wordpress,Laravel这是个问题？">Drupal,Wordpress,Laravel这是个问题？</h2><h3 id="面对强大的Drupal,简单wordpress和神秘的Laravel我犹豫起来了？">面对强大的Drupal,简单]]>
+    <![CDATA[<p><em>Drupal,Wordpress,Laravel这是个问题？
+</em>面对强大的Drupal,简单wordpress和神秘的Laravel我犹豫起来了？</p>
+]]>
     </summary>
     
       <category term="web" scheme="http://lekee.cc/tags/web/"/>
