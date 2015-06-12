@@ -4,7 +4,7 @@
   <subtitle><![CDATA[一个新生命的开始，记录所有的工作流水。]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://lekee.cc/"/>
-  <updated>2015-06-09T07:38:46.000Z</updated>
+  <updated>2015-06-12T11:40:20.000Z</updated>
   <id>http://lekee.cc/</id>
   
   <author>
@@ -13,6 +13,25 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[专业的事专业的人做]]></title>
+    <link href="http://lekee.cc/2015/06/12/%E4%B8%93%E4%B8%9A%E7%9A%84%E4%BA%8B%E4%B8%93%E4%B8%9A%E7%9A%84%E4%BA%BA%E5%81%9A/"/>
+    <id>http://lekee.cc/2015/06/12/专业的事专业的人做/</id>
+    <published>2015-06-12T11:16:50.000Z</published>
+    <updated>2015-06-12T11:40:20.000Z</updated>
+    <content type="html"><![CDATA[<p>人并不是万能的，每个人的能力都是有限的。尽自己的本能做好属于自己领域的事。<br>如果非要事事都亲力亲为的话，除了浪费时间，也浪费了生命！<br><a id="more"></a><br>关于公司的注册，原本打算自己来。可以省下好几百的代理注册费用。<br>结果因为种种原因，这事一拖再拖。<br>因为前面两个项目都出现了预想不到的问题，结果本来打算两周完事项目。<br>整整花了2个月才完事，那自然也影响到了后面的项目工期，这叫得不偿失。<br>现在手上又接了新活，最后一琢磨还是决定专业的事找专业的人去做。<br>不要因为能省几百块钱而浪费很多时间，这样真的不划算。<br>最后还是找了代理去注册，手续也都给代理了。<br>静待佳音吧～！</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>人并不是万能的，每个人的能力都是有限的。尽自己的本能做好属于自己领域的事。<br>如果非要事事都亲力亲为的话，除了浪费时间，也浪费了生命！<br>]]>
+    
+    </summary>
+    
+      <category term="公司注册" scheme="http://lekee.cc/tags/%E5%85%AC%E5%8F%B8%E6%B3%A8%E5%86%8C/"/>
+    
+      <category term="关于乐可" scheme="http://lekee.cc/categories/%E5%85%B3%E4%BA%8E%E4%B9%90%E5%8F%AF/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[到底用哪个呢？]]></title>
@@ -213,25 +232,6 @@
       <category term="烦心" scheme="http://lekee.cc/tags/%E7%83%A6%E5%BF%83/"/>
     
       <category term="关于乐可" scheme="http://lekee.cc/categories/%E5%85%B3%E4%BA%8E%E4%B9%90%E5%8F%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[图片文章测试]]></title>
-    <link href="http://lekee.cc/2015/04/10/%E5%9B%BE%E7%89%87%E6%96%87%E7%AB%A0%E6%B5%8B%E8%AF%95/"/>
-    <id>http://lekee.cc/2015/04/10/图片文章测试/</id>
-    <published>2015-04-10T03:42:25.000Z</published>
-    <updated>2015-04-11T20:58:37.000Z</updated>
-    <content type="html"><![CDATA[<p>这是一篇关于图片文章的测试。</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[this is lekee test article]]>
-    
-    </summary>
-    
-      <category term="图片文章" scheme="http://lekee.cc/tags/%E5%9B%BE%E7%89%87%E6%96%87%E7%AB%A0/"/>
-    
-      <category term="测试" scheme="http://lekee.cc/categories/%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
