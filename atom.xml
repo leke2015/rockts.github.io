@@ -4,7 +4,7 @@
   <subtitle><![CDATA[一个新生命的开始，记录所有的工作流水。]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://lekee.cc/"/>
-  <updated>2015-06-15T07:33:57.000Z</updated>
+  <updated>2015-06-15T18:33:41.000Z</updated>
   <id>http://lekee.cc/</id>
   
   <author>
@@ -19,11 +19,11 @@
     <link href="http://lekee.cc/2015/06/15/%E6%88%91%E4%BB%AC%E7%9A%84%E6%95%B0%E6%8D%AE%E8%BF%81%E7%A7%BB%E5%88%B0RDS%E4%BA%86/"/>
     <id>http://lekee.cc/2015/06/15/我们的数据迁移到RDS了/</id>
     <published>2015-06-15T06:19:39.000Z</published>
-    <updated>2015-06-15T07:33:57.000Z</updated>
-    <content type="html"><![CDATA[<p><img src="http://img4.imgtn.bdimg.com/it/u=3951367332,3228836750&fm=21&gp=0.jpg" class="img-topic"><br>我们只会越来越专业<br><a id="more"></a><br>之前发现服务器无辜宕机，经过检查发现是服务器内存溢出的问题，加大了服务器内存。<br>可用了几天问题依旧，后面还找了一个专门优化服务器的公司。<br>问题依旧，为了用户服务体验。<br>为此专门购买了阿里云的RDS服务。因为RDS是专门数据库服务器。<br>这样做可以把网站的web服务和数据库服务分开，可以大大提高ECS服务器整体性能。<br>提高我们网站性能和速度！～</p>
+    <updated>2015-06-15T18:33:41.000Z</updated>
+    <content type="html"><![CDATA[<p>我们只会越来越专业<br><a id="more"></a><br>之前发现服务器无辜宕机，经过检查发现是服务器内存溢出的问题，加大了服务器内存。<br>可用了几天问题依旧，后面还找了一个专门优化服务器的公司。<br>问题依旧，为了用户服务体验。<br>为此专门购买了阿里云的RDS服务。因为RDS是专门数据库服务器。<br>这样做可以把网站的web服务和数据库服务分开，可以大大提高ECS服务器整体性能。<br>提高我们网站性能和速度！～</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p><img src="http://img4.imgtn.bdimg.com/it/u=3951367332,3228836750&fm=21&gp=0.jpg" class="img-topic"/><br>我们只会越来越专业<br>]]>
+    <![CDATA[<p>我们只会越来越专业<br>]]>
     
     </summary>
     
