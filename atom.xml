@@ -4,7 +4,7 @@
   <subtitle><![CDATA[走向世界！]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://lekee.cc/"/>
-  <updated>2015-06-23T13:07:47.000Z</updated>
+  <updated>2015-06-26T08:53:35.000Z</updated>
   <id>http://lekee.cc/</id>
   
   <author>
@@ -13,6 +13,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[讨厌的文档]]></title>
+    <link href="http://lekee.cc/2015/06/26/%E8%AE%A8%E5%8E%8C%E7%9A%84%E6%96%87%E6%A1%A3/"/>
+    <id>http://lekee.cc/2015/06/26/讨厌的文档/</id>
+    <published>2015-06-26T08:48:00.000Z</published>
+    <updated>2015-06-26T08:53:35.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="讨厌的技术文档！">讨厌的技术文档！</h1><a id="more"></a>
+<p>最近拼了命的再学习，前端已经学完了。<br>另外又是各种杂七杂八的事。<br>好歹一切都在前进着。<br>又是讨厌的星期五，这个星期我又没得休息。<br>必须完成3个文档修改工作。<br>1、协助论文《工单助手系统》理论描述。数据对比过程方法详细阐述<br>2、《停息信息审核系统》技术报告加入更多的代码。<br>3、《停息信息审核系统》说明文档增加测试内容。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="讨厌的技术文档！">讨厌的技术文档！</h1>]]>
+    
+    </summary>
+    
+      <category term="开发文档" scheme="http://lekee.cc/tags/%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/"/>
+    
+      <category term="技术报告" scheme="http://lekee.cc/tags/%E6%8A%80%E6%9C%AF%E6%8A%A5%E5%91%8A/"/>
+    
+      <category term="手上的事" scheme="http://lekee.cc/categories/%E6%89%8B%E4%B8%8A%E7%9A%84%E4%BA%8B/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[人生百态]]></title>
