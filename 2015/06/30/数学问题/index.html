@@ -1,0 +1,634 @@
+
+ <!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  
+    <title>数学问题 | lekee</title>
+    <meta name="baidu-site-verification" content="ClM8LkYlCq" />
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    
+    <meta name="author" content="rockts">
+    
+
+    
+    <meta name="description" content="今天碰到一个有意思的数学问题。想了半天终于搞定。但是如何用代码解决这个问题呢？忙了一中午，搞定了一个。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="数学问题">
+<meta property="og:url" content="http://lekee.cc/2015/06/30/数学问题/index.html">
+<meta property="og:site_name" content="lekee">
+<meta property="og:description" content="今天碰到一个有意思的数学问题。想了半天终于搞定。但是如何用代码解决这个问题呢？忙了一中午，搞定了一个。">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="数学问题">
+<meta name="twitter:description" content="今天碰到一个有意思的数学问题。想了半天终于搞定。但是如何用代码解决这个问题呢？忙了一中午，搞定了一个。">
+<meta name="twitter:creator" content="@rockts1984">
+
+    
+    <link rel="alternative" href="/atom.xml" title="lekee" type="application/atom+xml">
+    
+    
+    <link rel="icon" href="/img/favicon.ico">
+    
+    
+    <link rel="apple-touch-icon" href="/img/logo.png">
+    <link rel="apple-touch-icon-precomposed" href="/img/logo.png">
+    
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+</head>
+
+  <body>
+    <header>
+      
+<div>
+		
+			<div id="imglogo">
+				<a href="/"><img src="/img/logo.png" alt="lekee" title="lekee"/></a>
+			</div>
+			
+			<div id="textlogo">
+			
+				<h2 class="blog-motto">走向世界！</h2>
+			</div>
+			<div class="navbar">
+			<a class="navbutton navmobile" href="#" title="菜单">
+			</a></div>
+			<nav class="animated">
+				<ul>
+					<ul>
+					 
+						<li><a href="/">首页</a></li>
+					
+						<li><a href="/archives">归档</a></li>
+					
+						<li><a href="/about">关于我</a></li>
+					
+					<li>
+ 					
+						<form class="search">
+							<label>Search</label>
+						<input type="text" id="ts-search-input" name="q" size="30" placeholder="搜索"><br>
+						</form>
+					
+					</li>
+				</ul>
+			</nav>			
+</div>
+    </header>
+    <div id="container">
+      <div id="main" class="post" itemscope itemprop="blogPost">
+  
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/2015/06/30/数学问题/" title="数学问题" itemprop="url">数学问题</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="http://lekee.cc/about" title="rockts" target="_blank" itemprop="author">rockts</a>
+		
+  <p class="article-time">
+    <time datetime="2015-06-30T07:30:46.000Z" itemprop="datePublished"> 发表于 2015-06-30</time>
+    
+  </p>
+</header>
+	<div class="article-content">
+		
+		<div id="toc" class="toc-article">
+			<strong class="toc-title">文章目录</strong>
+		
+			<ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#问题一：称鸡蛋的问题"><span class="toc-number">1.</span> <span class="toc-text">问题一：称鸡蛋的问题</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#原题："><span class="toc-number">1.1.</span> <span class="toc-text">原题：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#代码部分"><span class="toc-number">1.2.</span> <span class="toc-text">代码部分</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#返回显示："><span class="toc-number">1.3.</span> <span class="toc-text">返回显示：</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#问题二：找轻球的问题"><span class="toc-number">2.</span> <span class="toc-text">问题二：找轻球的问题</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#原题：-1"><span class="toc-number">2.1.</span> <span class="toc-text">原题：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#代码"><span class="toc-number">2.2.</span> <span class="toc-text">代码</span></a></li></ol></li></ol>
+		
+		</div>
+		
+		<p>今天碰到一个有意思的数学问题。想了半天终于搞定。<br>但是如何用代码解决这个问题呢？忙了一中午，搞定了一个。<br><a id="more"></a></p>
+<h1 id="问题一：称鸡蛋的问题">问题一：称鸡蛋的问题</h1><h2 id="原题：">原题：</h2><p>100个鸡蛋，每袋装10个,其中九个袋里装的鸡蛋每个都是50克，<br>另一个袋里装的每个都是40克。这10个袋子混在一起，只准用秤称一次，<br>你能找出哪一个袋里装的是40克重的鸡蛋？</p>
+<p>小明的称法：先给这10袋鸡蛋别人编上1～10号，然后从第1袋中拿出1个鸡蛋，<br>从第2袋中拿出2个鸡蛋，以此类推，然后称出这55个鸡蛋的重量，就能确定出哪一个袋里<br>装的是40克重的鸡蛋。</p>
+<h2 id="代码部分">代码部分</h2><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"container "</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"header"</span>&gt;</span><span class="tag">&lt;<span class="title">h1</span>&gt;</span>小明称鸡蛋的问题<span class="tag">&lt;/<span class="title">h1</span>&gt;</span><span class="tag">&lt;/<span class="title">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">h4</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">table</span> <span class="attribute">border</span>=<span class="value">"1"</span> <span class="attribute">cellpadding</span>=<span class="value">"10"</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="title">tr</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="title">td</span> <span class="attribute">bgcolor</span>=<span class="value">"#cccccc"</span> <span class="attribute">align</span>=<span class="value">"center"</span> <span class="attribute">width</span>=<span class="value">"100"</span>&gt;</span>编号<span class="tag">&lt;/<span class="title">td</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="title">td</span> <span class="attribute">bgcolor</span>=<span class="value">"#cccccc"</span> <span class="attribute">align</span>=<span class="value">"center"</span> <span class="attribute">width</span>=<span class="value">"200"</span>&gt;</span>相对质量<span class="tag">&lt;/<span class="title">td</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="title">tr</span>&gt;</span></span><br><span class="line"><span class="php"><span class="preprocessor">&lt;?php</span></span><br><span class="line"><span class="keyword">for</span> (<span class="variable">$distance</span> = <span class="number">1</span>; <span class="variable">$distance</span> &lt;= <span class="number">10</span>; <span class="variable">$distance</span> ++) &#123;</span><br><span class="line">    <span class="keyword">echo</span> <span class="string">"&lt;tr&gt;</span><br><span class="line">          &lt;td align=\"center\"&gt;"</span>.<span class="variable">$distance</span>.<span class="string">"&lt;/td&gt;</span><br><span class="line">          &lt;td align=\"center\"&gt;"</span>.(<span class="number">2750</span>-<span class="variable">$distance</span>*<span class="number">40</span> ).<span class="string">"&lt;/td&gt;</span><br><span class="line">          &lt;/tr&gt;\n"</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="preprocessor">?&gt;</span></span></span><br><span class="line"><span class="tag">&lt;/<span class="title">table</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="title">strong</span>&gt;</span></span><br><span class="line">       说明：  <span class="tag">&lt;/<span class="title">strong</span>&gt;</span></span><br><span class="line">       假如55个鸡蛋，每个都是50克，总质量：55X50=2750</span><br><span class="line">             但是因为小明从10个袋子中都拿了鸡蛋称。所以55个鸡蛋不可能每个都是50克。<span class="tag">&lt;<span class="title">br</span>&gt;</span></span><br><span class="line">             所以就会出现以上10种情况。根据小明称55个鸡蛋的质量<span class="tag">&lt;<span class="title">br</span>&gt;</span></span><br><span class="line">             就可以一次判断出来哪个编号袋子里的鸡蛋是轻的<span class="tag">&lt;<span class="title">br</span>&gt;</span></span><br><span class="line">             ***相对质量＝2750-轻鸡蛋数量X40<span class="tag">&lt;<span class="title">br</span>&gt;</span></span><br><span class="line">             ***轻鸡蛋数量＝袋数编号</span><br><span class="line">             <span class="tag">&lt;/<span class="title">h4</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;/<span class="title">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h2 id="返回显示：">返回显示：</h2><blockquote>
+<p>小明称鸡蛋的问题<br>编号    相对质量</p>
+<ol>
+<li>2710</li>
+<li>2670</li>
+<li>2630</li>
+<li>2590</li>
+<li>2550</li>
+<li>2510</li>
+<li>2470</li>
+<li>2430</li>
+<li>2390</li>
+<li>2350<br>说明： 假如55个鸡蛋，每个都是50克，总质量：55x50=2750 但是因为小明从10个袋子中都拿了鸡蛋称。所以55个鸡蛋不可能每个都是50克。<br>所以就会出现以上10种情况。根据小明称55个鸡蛋的质量，<br>就可以一次判断出来哪个编号袋子里的鸡蛋是轻的<br>相对质量＝2750-轻鸡蛋数量x40<br>轻鸡蛋数量＝袋数编号</li>
+</ol>
+</blockquote>
+<h1 id="问题二：找轻球的问题">问题二：找轻球的问题</h1><h2 id="原题：-1">原题：</h2><p>有8个球，编号分别是1至8，其中有6个球一样重。另外两个球都轻1克。<br>为了找出这两个轻球，用天平称了三次，结果如下：<br>第一次： 1+2&gt;3+4<br>第二次：5+6&lt;7+8<br>第三次：1+3+5=2+4+8<br>判断：两个轻球分别是几号？</p>
+<h2 id="代码">代码</h2><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"container"</span>&gt;</span></span><br><span class="line">    <span class="php"><span class="preprocessor">&lt;?php</span></span><br><span class="line"><span class="variable">$count</span> = <span class="number">8</span>;</span><br><span class="line"><span class="variable">$normal</span> = <span class="number">1</span>;</span><br><span class="line"><span class="variable">$light</span> = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line"><span class="variable">$arr</span> = <span class="keyword">array</span>();</span><br><span class="line"><span class="keyword">for</span>(<span class="variable">$i</span>=<span class="number">0</span>;<span class="variable">$i</span>&lt;<span class="variable">$count</span>;<span class="variable">$i</span>++) &#123;</span><br><span class="line">    <span class="keyword">for</span>(<span class="variable">$j</span>=<span class="variable">$i</span>+<span class="number">1</span>;<span class="variable">$j</span>&lt;<span class="variable">$count</span>;<span class="variable">$j</span>++) &#123;</span><br><span class="line">        <span class="variable">$case</span> = array_fill(<span class="number">1</span>, <span class="variable">$count</span>, <span class="variable">$normal</span>);</span><br><span class="line">        <span class="variable">$case</span>[<span class="variable">$i</span>] = <span class="variable">$case</span>[<span class="variable">$j</span>] = <span class="variable">$light</span>;</span><br><span class="line">        <span class="variable">$arr</span>[] = <span class="variable">$case</span>;</span><br><span class="line">    &#125;;</span><br><span class="line">&#125; ;</span><br><span class="line"></span><br><span class="line"><span class="variable">$res</span> = <span class="keyword">array</span>();</span><br><span class="line"><span class="keyword">foreach</span>(<span class="variable">$arr</span> <span class="keyword">as</span> <span class="variable">$case</span>) &#123;</span><br><span class="line">    <span class="variable">$conditions</span> = <span class="keyword">array</span>(</span><br><span class="line">        <span class="variable">$case</span>[<span class="number">1</span>]+<span class="variable">$case</span>[<span class="number">2</span>] &gt; <span class="variable">$case</span>[<span class="number">3</span>]+<span class="variable">$case</span>[<span class="number">4</span>],</span><br><span class="line">        <span class="variable">$case</span>[<span class="number">5</span>]+<span class="variable">$case</span>[<span class="number">6</span>] &lt; <span class="variable">$case</span>[<span class="number">7</span>]+<span class="variable">$case</span>[<span class="number">8</span>],</span><br><span class="line">        <span class="variable">$case</span>[<span class="number">1</span>]+<span class="variable">$case</span>[<span class="number">3</span>]+<span class="variable">$case</span>[<span class="number">5</span>] === <span class="variable">$case</span>[<span class="number">2</span>]+<span class="variable">$case</span>[<span class="number">4</span>]+<span class="variable">$case</span>[<span class="number">8</span>]</span><br><span class="line">    );</span><br><span class="line">    <span class="keyword">if</span>(<span class="variable">$conditions</span>[<span class="number">0</span>]&amp;&amp;<span class="variable">$conditions</span>[<span class="number">1</span>]&amp;&amp;<span class="variable">$conditions</span>[<span class="number">2</span>]) &#123;</span><br><span class="line">        <span class="variable">$res</span>[] = <span class="variable">$case</span>;</span><br><span class="line">    &#125;;</span><br><span class="line">&#125;;</span><br><span class="line">print_r(<span class="variable">$res</span>);</span><br><span class="line"><span class="preprocessor">?&gt;</span></span></span><br><span class="line"><span class="tag">&lt;/<span class="title">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+  
+	</div>
+		<footer class="article-footer clearfix">
+<div class="article-catetags">
+
+<div class="article-categories">
+  <span></span>
+  <a class="article-category-link" href="/categories/手上的事/">手上的事</a>
+</div>
+
+
+  <div class="article-tags">
+  
+  <span></span> <a href="/tags/应用代码/">应用代码</a><a href="/tags/数学问题/">数学问题</a>
+  </div>
+
+</div>
+
+
+
+	<div class="article-share" id="share">
+	
+	  <div data-url="http://lekee.cc/2015/06/30/数学问题/" data-title="数学问题 | lekee" data-tsina="1443140125" class="share clearfix">
+	  </div>
+	
+	</div>
+
+
+</footer>
+
+   	       
+	</article>
+	
+<nav class="article-nav clearfix">
+ 
+
+<div class="next">
+<a href="/2015/06/29/morning/"  title="morning">
+ <strong>下一篇：</strong><br/> 
+ <span>morning
+</span>
+</a>
+</div>
+
+</nav>
+
+	
+<section id="comments" class="comment">
+	<div class="ds-thread" data-thread-key="2015/06/30/数学问题/" data-title="数学问题" data-url="http://lekee.cc/2015/06/30/数学问题/"></div>
+</section>
+
+
+</div>  
+      <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
+
+  <div id="toc" class="toc-aside">
+  <strong class="toc-title">文章目录</strong>
+ 
+ <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#问题一：称鸡蛋的问题"><span class="toc-number">1.</span> <span class="toc-text">问题一：称鸡蛋的问题</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#原题："><span class="toc-number">1.1.</span> <span class="toc-text">原题：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#代码部分"><span class="toc-number">1.2.</span> <span class="toc-text">代码部分</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#返回显示："><span class="toc-number">1.3.</span> <span class="toc-text">返回显示：</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#问题二：找轻球的问题"><span class="toc-number">2.</span> <span class="toc-text">问题二：找轻球的问题</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#原题：-1"><span class="toc-number">2.1.</span> <span class="toc-text">原题：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#代码"><span class="toc-number">2.2.</span> <span class="toc-text">代码</span></a></li></ol></li></ol>
+ 
+  </div>
+
+<div id="asidepart">
+<div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
+<aside class="clearfix">
+
+  
+<div class="categorieslist">
+	<p class="asidetitle">分类</p>
+		<ul>
+		
+		  
+			<li><a href="/categories/关于乐可/" title="关于乐可">关于乐可<sup>7</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/内心世界/" title="内心世界">内心世界<sup>2</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/天水跳蚤/" title="天水跳蚤">天水跳蚤<sup>1</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/手上的事/" title="手上的事">手上的事<sup>9</sup></a></li>
+		  
+		
+		</ul>
+</div>
+
+
+  
+<div class="tagslist">
+	<p class="asidetitle">标签</p>
+		<ul class="clearfix">
+		
+			
+				<li><a href="/tags/技术报告/" title="技术报告">技术报告<sup>4</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/公司注册/" title="公司注册">公司注册<sup>3</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/思考/" title="思考">思考<sup>2</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/乐可LOGO/" title="乐可LOGO">乐可LOGO<sup>2</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/leke-logo/" title="leke-logo">leke-logo<sup>2</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/logo/" title="logo">logo<sup>2</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/烦心/" title="烦心">烦心<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/数学问题/" title="数学问题">数学问题<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/应用代码/" title="应用代码">应用代码<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/数据库迁移/" title="数据库迁移">数据库迁移<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/RDS/" title="RDS">RDS<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/阿里云/" title="阿里云">阿里云<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/旗下项目/" title="旗下项目">旗下项目<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/网站开发/" title="网站开发">网站开发<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/天水跳蚤/" title="天水跳蚤">天水跳蚤<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/tsflea-com/" title="tsflea.com">tsflea.com<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/centos/" title="centos">centos<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/程序/" title="程序">程序<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/web/" title="web">web<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/公司名/" title="公司名">公司名<sup>1</sup></a></li>
+			
+		
+		</ul>
+</div>
+
+
+  <div class="linkslist">
+  <p class="asidetitle">友情链接</p>
+    <ul>
+        
+          <li>
+            
+            	<a href="http://free-e.net" target="_blank" title="FREE网络">FREE网络</a>
+            
+          </li>
+        
+          <li>
+            
+            	<a href="http://tsflea.com" target="_blank" title="天水跳蚤">天水跳蚤</a>
+            
+          </li>
+        
+          <li>
+            
+            	<a href="http://boral.wang" target="_blank" title="边大夫口腔">边大夫口腔</a>
+            
+          </li>
+        
+          <li>
+            
+            	<a href="http://blog.sina.com.cn/rockts" target="_blank" title="三弦打品博客">三弦打品博客</a>
+            
+          </li>
+        
+          <li>
+            
+            	<a href="http://reftizi.com/?r=dc5bbd327f605667" target="_blank" title="云梯（走向世界）">云梯（走向世界）</a>
+            
+          </li>
+        
+    </ul>
+</div>
+
+  
+
+<div class="doubanshow">
+<p class="asidetitle">豆瓣秀</p>
+<div>
+<script type="text/javascript" src="http://www.douban.com/service/badge/rockts/?selection=random&amp;picsize=medium&amp;show=collection&amp;n=8&amp;cat=drama%7Cmovie%7Cbook%7Cmusic&amp;columns=2"></script>
+</div>
+</div>
+
+
+  <div class="rsspart">
+	<a href="/atom.xml" target="_blank" title="rss">RSS 订阅</a>
+</div>
+
+</aside>
+</div>
+    </div>
+    <footer><div id="footer" >
+	
+	<div class="line">
+		<span></span>
+		<div class="author"></div>
+	</div>
+	
+	
+	<section class="info">
+		<p> Welcome to my world, I am rockts. <br/>
+			This is my blog,believe it or not.</p>
+	</section>
+	 
+	<div class="social-font" class="clearfix">
+		
+		<a href="http://weibo.com/1443140125" target="_blank" class="icon-weibo" title="微博"></a>
+		
+		
+		<a href="https://github.com/rockts" target="_blank" class="icon-github" title="github"></a>
+		
+		
+		
+		<a href="https://twitter.com/rockts1984" target="_blank" class="icon-twitter" title="twitter"></a>
+		
+		
+		<a href="https://www.facebook.com/gaopeng2014" target="_blank" class="icon-facebook" title="facebook"></a>
+		
+		
+		
+		<a href="https://www.douban.com/people/rockts" target="_blank" class="icon-douban" title="豆瓣"></a>
+		
+		
+		
+		
+		<a href="mailto:rockts@sina.com" target="_blank" class="icon-email" title="Email Me"></a>
+		
+	</div>
+			
+		
+
+		<p class="copyright">
+		Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Jacman">Jacman</a> © 2015 
+		
+		<a href="http://lekee.cc/about" target="_blank" title="rockts">rockts</a>
+		
+		
+		</p>
+</div>
+</footer>
+    <script src="/js/jquery-2.0.3.min.js"></script>
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      o = $('.openaside');
+  c.click(function(){
+    a.addClass('fadeOut').css('display', 'none');
+    o.css('display', 'block').addClass('fadeIn');
+    m.addClass('moveMain');
+  });
+  o.click(function(){
+    o.css('display', 'none').removeClass('beforeFadeIn');
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
+    m.removeClass('moveMain');
+  });
+  $(window).scroll(function(){
+    o.css("top",Math.max(80,260-$(this).scrollTop()));
+  });
+  
+  $(window).resize(function(){
+    getSize(); 
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else{
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      o.css('display', 'none');
+      
+      $('#toc.toc-aside').css('display', 'none');
+        
+    }
+  });
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  c.click(function(){
+    ta.css('display', 'block').addClass('fadeIn');
+  });
+  o.click(function(){
+    ta.css('display', 'none');
+  });
+  $(window).scroll(function(){
+    ta.css("top",Math.max(140,320-$(this).scrollTop()));
+  });
+});
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina'),
+      description = $this.attr('description');
+  var html = [
+  '<a href="#" class="overlay" id="qrcode"></a>',
+  '<div class="qrcode clearfix"><span>扫描二维码分享到微信朋友圈</span><a class="qrclose" href="#nothing"></a><strong>Loading...Please wait</strong><img id="qrcode-pic" data-src="http://s.jiathis.com/qrcode.php?url=' + encodedUrl + '"/></div>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="微信"></a>',
+  '<a href="http://widget.renren.com/dialog/share?resourceUrl=' + encodedUrl + '&srcUrl=' + encodedUrl + '&title=' + title +'" class="article-share-renren" target="_blank" title="人人"></a>',
+  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="微博"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+  $('.article-share-qrcode').click(function(){
+    var imgSrc = $('#qrcode-pic').attr('data-src');
+    $('#qrcode-pic').attr('src', imgSrc);
+    $('#qrcode-pic').load(function(){
+        $('.qrcode strong').text(' ');
+    });
+  });
+});     
+</script>
+
+
+
+<script type="text/javascript">
+  var duoshuoQuery = {short_name:"lekee"};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+    || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+</script> 
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+}); 
+</script>
+
+
+
+<!-- Analytics Begin -->
+
+
+
+
+
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254831363'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s23.cnzz.com/z_stat.php%3Fid%3D1254831363' type='text/javascript'%3E%3C/script%3E"));</script>
+
+<!-- Analytics End -->
+
+<!-- Totop Begin -->
+
+	<div id="totop">
+	<a title="返回顶部"><img src="/img/scrollup.png"/></a>
+	</div>
+	<script src="/js/totop.js"></script>
+
+<!-- Totop End -->
+
+<!-- MathJax Begin -->
+<!-- mathjax config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+<!-- MathJax End -->
+
+<!-- Tiny_search Begin -->
+
+<script>
+var option = {
+  engineKey: '64041e724eaa4695d68c'
+};
+(function(w,d,t,u,n,s,e){
+  s = d.createElement(t);
+  s.src = u;
+  s.async = 1;
+  w[n] = function(r){
+    w[n].opts = r;
+  };
+  e = d.getElementsByTagName(t)[0];
+  e.parentNode.insertBefore(s, e);
+})(window,document,'script','//tinysou-cdn.b0.upaiyun.com/ts.js','_ts');
+_ts(option);
+</script>
+
+<!-- Tiny_search End -->
+
+  </body>
+</html>
