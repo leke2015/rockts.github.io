@@ -4,7 +4,7 @@
   <subtitle><![CDATA[走向世界！]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://lekee.cc/"/>
-  <updated>2015-07-16T15:13:21.000Z</updated>
+  <updated>2015-09-10T14:46:21.000Z</updated>
   <id>http://lekee.cc/</id>
   
   <author>
@@ -13,6 +13,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[关于互联网我们离的还很远]]></title>
+    <link href="http://lekee.cc/2015/09/10/%E6%9C%80%E8%BF%91%E5%81%9A%E4%BA%86%E4%B8%80%E4%BA%9B%E6%94%BF%E5%BA%9C%E7%BD%91%E7%AB%99/"/>
+    <id>http://lekee.cc/2015/09/10/最近做了一些政府网站/</id>
+    <published>2015-09-10T14:07:36.000Z</published>
+    <updated>2015-09-10T14:46:21.000Z</updated>
+    <content type="html"><![CDATA[<p>最近很累，接了几个政府网站的活。这几个活忙下来，唯一的感觉就是，关于互联网我们还离的很远。<br><a id="more"></a><br>为什么这么说呢？首先我接的这几个活都是别人转包给我的。<br>所以价格很低廉。<br>因为之前的一个活，网站用php做的，结果服务器是windows 。因此出现了很多更本没有必要的问题。<br>所以这次一开始我就没有打算用php开发网站。<br>做了这么多政府网站的活除了价格，没有一家关心程序的。<br>一分价钱一分货，就是这么一个道理。<br>即使这些网站都用的是动易sw开发的.<br>但品心而论，虽然动易SW有点老，但动易的口碑一直不错的。<br>asp还是能满足这些客户对性能的需求。<br>但有个不好的现象就是，大家一致认为外观比性能重要的多。<br>现在有个普遍的现象就是，“硬件远远比软件重要！”<br>一个单位肯花上万买服务器，虽然服务器的功能只是放一个内网的网站。<br>但对于这个网站的开发投入也不到这个服务器的三分之一的价格。<br>难道服务器真的就比这个网站还要重要。<br>曾经我碰到一个单位客户，一个单反肯花7，8万。但对于所有的软件投入还不到这个单反的十分之一。<br>这个现象是普遍存在，是畸形的。<br>硬件只是服务于软件，软件才是真正信息化工作的核心和灵魂。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>最近很累，接了几个政府网站的活。这几个活忙下来，唯一的感觉就是，关于互联网我们还离的很远。<br>]]>
+    
+    </summary>
+    
+      <category term="政府网站" scheme="http://lekee.cc/tags/%E6%94%BF%E5%BA%9C%E7%BD%91%E7%AB%99/"/>
+    
+      <category term="网站建设" scheme="http://lekee.cc/tags/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/"/>
+    
+      <category term="手上的事" scheme="http://lekee.cc/categories/%E6%89%8B%E4%B8%8A%E7%9A%84%E4%BA%8B/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[拿到营业执照了]]></title>
@@ -453,25 +474,6 @@
       <category term="乐可网络" scheme="http://lekee.cc/tags/%E4%B9%90%E5%8F%AF%E7%BD%91%E7%BB%9C/"/>
     
       <category term="关于乐可" scheme="http://lekee.cc/categories/%E5%85%B3%E4%BA%8E%E4%B9%90%E5%8F%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[今天有点冷]]></title>
-    <link href="http://lekee.cc/2015/04/06/%E4%BB%8A%E5%A4%A9%E6%9C%89%E7%82%B9%E5%86%B7/"/>
-    <id>http://lekee.cc/2015/04/06/今天有点冷/</id>
-    <published>2015-04-06T11:46:26.000Z</published>
-    <updated>2015-04-06T14:13:06.000Z</updated>
-    <content type="html"><![CDATA[<p>今日清明小假的最后一天，很冷。我  继续完成c#开发的技术报告。虽然这个报告对于我来说有些麻烦，但我相信依然不是问题。好想时间总是够用。目前我还是一团糟。</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>今日清明小假的最后一天，很冷。我  继续完成c#开发的技术报告。虽然这个报告对于我来说有些麻烦，但我相信依然不是问题。好想时间总是够用。目前我还是一团糟。</p>
-]]>
-    </summary>
-    
-      <category term="技术报告" scheme="http://lekee.cc/tags/%E6%8A%80%E6%9C%AF%E6%8A%A5%E5%91%8A/"/>
-    
-      <category term="手上的事" scheme="http://lekee.cc/categories/%E6%89%8B%E4%B8%8A%E7%9A%84%E4%BA%8B/"/>
     
   </entry>
   
