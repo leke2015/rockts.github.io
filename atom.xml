@@ -4,7 +4,7 @@
   <subtitle><![CDATA[走向世界！]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://lekee.cc/"/>
-  <updated>2015-09-14T02:35:57.000Z</updated>
+  <updated>2015-09-14T07:06:46.000Z</updated>
   <id>http://lekee.cc/</id>
   
   <author>
@@ -19,10 +19,10 @@
     <link href="http://lekee.cc/2015/09/14/%E5%A4%A9%E6%B0%B4%E8%B7%B3%E8%9A%A4%E6%9C%80%E6%96%B0%E5%BC%80%E5%8F%91%E8%BF%9B%E5%BA%A6/"/>
     <id>http://lekee.cc/2015/09/14/天水跳蚤最新开发进度/</id>
     <published>2015-09-14T01:55:23.000Z</published>
-    <updated>2015-09-14T02:35:57.000Z</updated>
+    <updated>2015-09-14T07:06:46.000Z</updated>
     <content type="html"><![CDATA[<p>最近不太接单子了，这几天一直再进行天水跳蚤的开发。<br>前端框架网站整体用bootstrap开发，部分地方可能会用到别的。<br><a id="more"></a><br>一个庞大的项目正在进行，但目前的开发工作只有我一个人。<br>从网站的功能、整体布局。到现在的开发。<br>这个过程是漫长的。现在网站还属于前端开发阶段。<br>天水跳蚤是一个简单、时尚、实用的二手信息发布平台。<br>网站主要功能栏目 物品，活动，博客<br>现在活动和博客的栏目页和内容页已经完成。</p>
 <blockquote>
-<p>天水跳蚤寻求项目合作伙伴<br>感兴趣请发邮箱 <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#114;&#x6f;&#99;&#x6b;&#x74;&#115;&#64;&#115;&#105;&#110;&#x61;&#46;&#99;&#111;&#109;">&#114;&#x6f;&#99;&#x6b;&#x74;&#115;&#64;&#115;&#105;&#110;&#x61;&#46;&#99;&#111;&#109;</a></p>
+<p>天水跳蚤寻求项目合作伙伴<br>感兴趣请发邮箱 <a href="&#109;&#x61;&#105;&#x6c;&#x74;&#x6f;&#58;&#114;&#x6f;&#x63;&#107;&#116;&#x73;&#x40;&#x73;&#105;&#x6e;&#97;&#46;&#x63;&#x6f;&#109;">&#114;&#x6f;&#x63;&#107;&#116;&#x73;&#x40;&#x73;&#105;&#x6e;&#97;&#46;&#x63;&#x6f;&#109;</a></p>
 </blockquote>
 ]]></content>
     <summary type="html">
@@ -31,6 +31,8 @@
     </summary>
     
       <category term="bootstrap" scheme="http://lekee.cc/tags/bootstrap/"/>
+    
+      <category term="tsflea.com" scheme="http://lekee.cc/tags/tsflea-com/"/>
     
       <category term="前端开发" scheme="http://lekee.cc/tags/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
     
