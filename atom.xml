@@ -4,7 +4,7 @@
   <subtitle><![CDATA[走向世界！]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://lekee.cc/"/>
-  <updated>2015-09-10T14:46:21.000Z</updated>
+  <updated>2015-09-14T02:23:15.000Z</updated>
   <id>http://lekee.cc/</id>
   
   <author>
@@ -13,6 +13,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[天水跳蚤最新开发进度]]></title>
+    <link href="http://lekee.cc/2015/09/14/%E5%A4%A9%E6%B0%B4%E8%B7%B3%E8%9A%A4%E6%9C%80%E6%96%B0%E5%BC%80%E5%8F%91%E8%BF%9B%E5%BA%A6/"/>
+    <id>http://lekee.cc/2015/09/14/天水跳蚤最新开发进度/</id>
+    <published>2015-09-14T01:55:23.000Z</published>
+    <updated>2015-09-14T02:23:15.000Z</updated>
+    <content type="html"><![CDATA[<p>最近不太接单子了，这几天一直再进行天水跳蚤的开发。<br>前端框架网站整体用bootstrap开发，部分地方可能会用到别的。<br><a id="more"></a><br>一个庞大的项目正在进行，但目前的开发工作只有我一个人。<br>从网站的功能、整体布局。到现在的开发。<br>这个过程是漫长的。现在网站还属于前端开发阶段。<br>天水跳蚤是一个简单、时尚、实用的二手信息发布平台。<br>网站主要功能栏目 物品，活动，博客<br>现在活动和博客的栏目页和内容页已经完成。<br><code>天水跳蚤寻求项目合作伙伴，感兴趣请发邮箱 rockts@sina.com</code></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>最近不太接单子了，这几天一直再进行天水跳蚤的开发。<br>前端框架网站整体用bootstrap开发，部分地方可能会用到别的。<br>]]>
+    
+    </summary>
+    
+      <category term="bootstrap" scheme="http://lekee.cc/tags/bootstrap/"/>
+    
+      <category term="前端开发" scheme="http://lekee.cc/tags/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    
+      <category term="天水跳蚤" scheme="http://lekee.cc/tags/%E5%A4%A9%E6%B0%B4%E8%B7%B3%E8%9A%A4/"/>
+    
+      <category term="天水跳蚤" scheme="http://lekee.cc/categories/%E5%A4%A9%E6%B0%B4%E8%B7%B3%E8%9A%A4/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[关于互联网我们离的还很远]]></title>
@@ -455,25 +478,6 @@
       <category term="技术报告" scheme="http://lekee.cc/tags/%E6%8A%80%E6%9C%AF%E6%8A%A5%E5%91%8A/"/>
     
       <category term="手上的事" scheme="http://lekee.cc/categories/%E6%89%8B%E4%B8%8A%E7%9A%84%E4%BA%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[关于乐可网络]]></title>
-    <link href="http://lekee.cc/2015/04/06/%E5%85%B3%E4%BA%8E%E4%B9%90%E5%8F%AF%E7%BD%91%E7%BB%9C/"/>
-    <id>http://lekee.cc/2015/04/06/关于乐可网络/</id>
-    <published>2015-04-06T14:36:10.000Z</published>
-    <updated>2015-04-14T16:47:35.000Z</updated>
-    <content type="html"><![CDATA[<p>关于乐可网络，一个正在注册的新公司。<br><a id="more"></a><br>全称：天水乐可网络科技有限公司，主要从事网络开发和软件开发的公司。<br>公司平时主要业务以网络开发和软件开发为主，现在公司正在筹划的第一个项目叫天水跳蚤（tsflea.com）。<br>从策划-开发-运营全程都是由乐可网络来完成的。<br>这也算是我第一次创业吧，希望能成功。</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>关于乐可网络，一个正在注册的新公司。<br>]]>
-    
-    </summary>
-    
-      <category term="乐可网络" scheme="http://lekee.cc/tags/%E4%B9%90%E5%8F%AF%E7%BD%91%E7%BB%9C/"/>
-    
-      <category term="关于乐可" scheme="http://lekee.cc/categories/%E5%85%B3%E4%BA%8E%E4%B9%90%E5%8F%AF/"/>
     
   </entry>
   
