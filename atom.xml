@@ -4,7 +4,7 @@
   <subtitle><![CDATA[走向世界！]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://lekee.cc/"/>
-  <updated>2015-09-14T07:06:46.000Z</updated>
+  <updated>2015-09-21T15:06:45.000Z</updated>
   <id>http://lekee.cc/</id>
   
   <author>
@@ -15,6 +15,37 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[前端大体结构确定]]></title>
+    <link href="http://lekee.cc/2015/09/21/%E5%89%8D%E7%AB%AF%E5%A4%A7%E4%BD%93%E7%BB%93%E6%9E%84%E7%A1%AE%E5%AE%9A/"/>
+    <id>http://lekee.cc/2015/09/21/前端大体结构确定/</id>
+    <published>2015-09-21T14:38:27.000Z</published>
+    <updated>2015-09-21T15:06:45.000Z</updated>
+    <content type="html"><![CDATA[<p>跳蚤的大题结构已经确定，前面代码也已经git coding.net 上去了。<br><a id="more"></a><br>基本页面已经确定<br>基本栏目已经确定<br>基本功能已经确定<br>现在网站前端还有一些细节要做，还需要几个js。<br>比如物品展示，我准备用瀑布流<br>navbar 我准备用下拉自动影藏的效果。</p>
+<p>还有大体颜色也会做一些调整。</p>
+<p>关于功能，用户发布物品，收藏物品、文章和活动<br>关于联系卖家可以用站内私信。<br>关于卖家信誉度的问题，可以用积分的方式。<br>一切都遵循从实际出发、尽可能的简化流程。<br>每个人的时间和生命都是宝贵的，<br>不必要浪费的时间我们绝对要珍惜！</p>
+<p>主题演示地址：<tsflea.coding.net><br>一个前面页面：<tsflea-dev.coding.net></tsflea-dev.coding.net></tsflea.coding.net></p>
+<blockquote>
+<p>项目仍在寻求感兴趣的小伙伴<br>如果你感兴趣请来电或发email<br>对天水跳蚤有什么建议发邮件 <a href="&#x6d;&#97;&#105;&#108;&#116;&#x6f;&#x3a;&#x73;&#101;&#x72;&#x76;&#x69;&#99;&#x65;&#x40;&#x74;&#115;&#102;&#108;&#x65;&#97;&#46;&#99;&#111;&#x6d;">&#x73;&#101;&#x72;&#x76;&#x69;&#99;&#x65;&#x40;&#x74;&#115;&#102;&#108;&#x65;&#97;&#46;&#99;&#111;&#x6d;</a></p>
+</blockquote>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>跳蚤的大题结构已经确定，前面代码也已经git coding.net 上去了。<br>]]>
+    
+    </summary>
+    
+      <category term="bootstrap" scheme="http://lekee.cc/tags/bootstrap/"/>
+    
+      <category term="tsflea.com" scheme="http://lekee.cc/tags/tsflea-com/"/>
+    
+      <category term="天水跳蚤" scheme="http://lekee.cc/tags/%E5%A4%A9%E6%B0%B4%E8%B7%B3%E8%9A%A4/"/>
+    
+      <category term="开发进度" scheme="http://lekee.cc/tags/%E5%BC%80%E5%8F%91%E8%BF%9B%E5%BA%A6/"/>
+    
+      <category term="天水跳蚤" scheme="http://lekee.cc/categories/%E5%A4%A9%E6%B0%B4%E8%B7%B3%E8%9A%A4/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[天水跳蚤最新开发进度]]></title>
     <link href="http://lekee.cc/2015/09/14/%E5%A4%A9%E6%B0%B4%E8%B7%B3%E8%9A%A4%E6%9C%80%E6%96%B0%E5%BC%80%E5%8F%91%E8%BF%9B%E5%BA%A6/"/>
     <id>http://lekee.cc/2015/09/14/天水跳蚤最新开发进度/</id>
@@ -22,7 +53,7 @@
     <updated>2015-09-14T07:06:46.000Z</updated>
     <content type="html"><![CDATA[<p>最近不太接单子了，这几天一直再进行天水跳蚤的开发。<br>前端框架网站整体用bootstrap开发，部分地方可能会用到别的。<br><a id="more"></a><br>一个庞大的项目正在进行，但目前的开发工作只有我一个人。<br>从网站的功能、整体布局。到现在的开发。<br>这个过程是漫长的。现在网站还属于前端开发阶段。<br>天水跳蚤是一个简单、时尚、实用的二手信息发布平台。<br>网站主要功能栏目 物品，活动，博客<br>现在活动和博客的栏目页和内容页已经完成。</p>
 <blockquote>
-<p>天水跳蚤寻求项目合作伙伴<br>感兴趣请发邮箱 <a href="&#109;&#x61;&#105;&#x6c;&#x74;&#x6f;&#58;&#114;&#x6f;&#x63;&#107;&#116;&#x73;&#x40;&#x73;&#105;&#x6e;&#97;&#46;&#x63;&#x6f;&#109;">&#114;&#x6f;&#x63;&#107;&#116;&#x73;&#x40;&#x73;&#105;&#x6e;&#97;&#46;&#x63;&#x6f;&#109;</a></p>
+<p>天水跳蚤寻求项目合作伙伴<br>感兴趣请发邮箱 <a href="&#109;&#x61;&#105;&#x6c;&#116;&#x6f;&#58;&#114;&#111;&#99;&#x6b;&#x74;&#115;&#x40;&#x73;&#x69;&#x6e;&#97;&#x2e;&#99;&#x6f;&#x6d;">&#114;&#111;&#99;&#x6b;&#x74;&#115;&#x40;&#x73;&#x69;&#x6e;&#97;&#x2e;&#99;&#x6f;&#x6d;</a></p>
 </blockquote>
 ]]></content>
     <summary type="html">
@@ -462,27 +493,6 @@
       <category term="烦心" scheme="http://lekee.cc/tags/%E7%83%A6%E5%BF%83/"/>
     
       <category term="关于乐可" scheme="http://lekee.cc/categories/%E5%85%B3%E4%BA%8E%E4%B9%90%E5%8F%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[《工单受理全过程跟踪分析系统》技术报告终于完成了]]></title>
-    <link href="http://lekee.cc/2015/04/07/%E3%80%8A%E5%B7%A5%E5%8D%95%E5%8F%97%E7%90%86%E5%85%A8%E8%BF%87%E7%A8%8B%E8%B7%9F%E8%B8%AA%E5%88%86%E6%9E%90%E7%B3%BB%E7%BB%9F%E3%80%8B%E6%8A%80%E6%9C%AF%E6%8A%A5%E5%91%8A%E7%BB%88%E4%BA%8E%E5%AE%8C%E6%88%90%E4%BA%86/"/>
-    <id>http://lekee.cc/2015/04/07/《工单受理全过程跟踪分析系统》技术报告终于完成了/</id>
-    <published>2015-04-07T14:34:53.000Z</published>
-    <updated>2015-04-07T14:39:16.000Z</updated>
-    <content type="html"><![CDATA[<p>经过几天的奋战，今天这个技术报告终于算是完成了，明天可以给客户交工了。<br>好了，很久没这么早上过床了。啥也不说了，睡觉去了！@</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>经过几天的奋战，今天这个技术报告终于算是完成了，明天可以给客户交工了。<br>好了，很久没这么早上过床了。啥也不说了，睡觉去了！@</p>
-]]>
-    </summary>
-    
-      <category term="C#系统开发" scheme="http://lekee.cc/tags/C-%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/"/>
-    
-      <category term="技术报告" scheme="http://lekee.cc/tags/%E6%8A%80%E6%9C%AF%E6%8A%A5%E5%91%8A/"/>
-    
-      <category term="手上的事" scheme="http://lekee.cc/categories/%E6%89%8B%E4%B8%8A%E7%9A%84%E4%BA%8B/"/>
     
   </entry>
   
