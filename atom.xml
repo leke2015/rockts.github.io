@@ -4,7 +4,7 @@
   <subtitle><![CDATA[走向世界！]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://lekee.cc/"/>
-  <updated>2015-09-21T15:16:03.000Z</updated>
+  <updated>2015-09-30T16:43:18.000Z</updated>
   <id>http://lekee.cc/</id>
   
   <author>
@@ -13,6 +13,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[可乐有备案了]]></title>
+    <link href="http://lekee.cc/2015/10/01/%E5%8F%AF%E4%B9%90%E6%9C%89%E5%A4%87%E6%A1%88%E4%BA%86/"/>
+    <id>http://lekee.cc/2015/10/01/可乐有备案了/</id>
+    <published>2015-09-30T16:39:48.000Z</published>
+    <updated>2015-09-30T16:43:18.000Z</updated>
+    <content type="html"><![CDATA[<p>阿里做事就是效率，申请没几天。已经拿到备案号了。<br>乐可有自己的备案了，官网正在建设中。。。<br>以后用lekee.cc 就是访问公司的正式官方了～～</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>阿里做事就是效率，申请没几天。已经拿到备案号了。<br>乐可有自己的备案了，官网正在建设中。。。<br>以后用lekee.cc 就是访问公司的正式官方了～～</p>
+]]>
+    </summary>
+    
+      <category term="公司官方" scheme="http://lekee.cc/tags/%E5%85%AC%E5%8F%B8%E5%AE%98%E6%96%B9/"/>
+    
+      <category term="网站备案" scheme="http://lekee.cc/tags/%E7%BD%91%E7%AB%99%E5%A4%87%E6%A1%88/"/>
+    
+      <category term="网站建设" scheme="http://lekee.cc/tags/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/"/>
+    
+      <category term="关于乐可" scheme="http://lekee.cc/categories/%E5%85%B3%E4%BA%8E%E4%B9%90%E5%8F%AF/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[前端大体结构确定]]></title>
@@ -25,7 +48,7 @@
 <p>关于功能，用户发布物品，收藏物品、文章和活动<br>关于联系卖家可以用站内私信。<br>关于卖家信誉度的问题，可以用积分的方式。<br>一切都遵循从实际出发、尽可能的简化流程。<br>每个人的时间和生命都是宝贵的，<br>不必要浪费的时间我们绝对要珍惜！</p>
 <p>演示1：<a href="http://tsflea.coding.io" target="_blank" rel="external">http://tsflea.coding.io</a><br>演示2：<a href="http://tsflea-dev.coding.io" target="_blank" rel="external">http://tsflea-dev.coding.io</a></p>
 <blockquote>
-<p>项目仍在寻求感兴趣的小伙伴<br>如果你感兴趣请来电或发email<br>对天水跳蚤有什么建议发邮件 <a href="&#109;&#x61;&#105;&#x6c;&#x74;&#111;&#x3a;&#x73;&#101;&#x72;&#118;&#x69;&#x63;&#x65;&#64;&#x74;&#115;&#x66;&#108;&#x65;&#x61;&#46;&#99;&#x6f;&#x6d;">&#x73;&#101;&#x72;&#118;&#x69;&#x63;&#x65;&#64;&#x74;&#115;&#x66;&#108;&#x65;&#x61;&#46;&#99;&#x6f;&#x6d;</a></p>
+<p>项目仍在寻求感兴趣的小伙伴<br>如果你感兴趣请来电或发email<br>对天水跳蚤有什么建议发邮件 <a href="&#x6d;&#97;&#105;&#x6c;&#x74;&#111;&#58;&#x73;&#x65;&#114;&#x76;&#x69;&#x63;&#101;&#x40;&#116;&#115;&#x66;&#x6c;&#x65;&#x61;&#46;&#99;&#111;&#109;">&#x73;&#x65;&#114;&#x76;&#x69;&#x63;&#101;&#x40;&#116;&#115;&#x66;&#x6c;&#x65;&#x61;&#46;&#99;&#111;&#109;</a></p>
 </blockquote>
 ]]></content>
     <summary type="html">
@@ -51,7 +74,7 @@
     <updated>2015-09-14T07:06:46.000Z</updated>
     <content type="html"><![CDATA[<p>最近不太接单子了，这几天一直再进行天水跳蚤的开发。<br>前端框架网站整体用bootstrap开发，部分地方可能会用到别的。<br><a id="more"></a><br>一个庞大的项目正在进行，但目前的开发工作只有我一个人。<br>从网站的功能、整体布局。到现在的开发。<br>这个过程是漫长的。现在网站还属于前端开发阶段。<br>天水跳蚤是一个简单、时尚、实用的二手信息发布平台。<br>网站主要功能栏目 物品，活动，博客<br>现在活动和博客的栏目页和内容页已经完成。</p>
 <blockquote>
-<p>天水跳蚤寻求项目合作伙伴<br>感兴趣请发邮箱 <a href="&#109;&#97;&#x69;&#x6c;&#116;&#111;&#58;&#x72;&#x6f;&#99;&#107;&#x74;&#x73;&#x40;&#x73;&#105;&#x6e;&#97;&#46;&#99;&#111;&#109;">&#x72;&#x6f;&#99;&#107;&#x74;&#x73;&#x40;&#x73;&#105;&#x6e;&#97;&#46;&#99;&#111;&#109;</a></p>
+<p>天水跳蚤寻求项目合作伙伴<br>感兴趣请发邮箱 <a href="&#109;&#97;&#x69;&#108;&#x74;&#111;&#58;&#x72;&#x6f;&#x63;&#x6b;&#116;&#115;&#64;&#x73;&#105;&#x6e;&#97;&#46;&#x63;&#x6f;&#x6d;">&#x72;&#x6f;&#x63;&#x6b;&#116;&#115;&#64;&#x73;&#105;&#x6e;&#97;&#46;&#x63;&#x6f;&#x6d;</a></p>
 </blockquote>
 ]]></content>
     <summary type="html">
@@ -470,27 +493,6 @@
       <category term="评论" scheme="http://lekee.cc/tags/%E8%AF%84%E8%AE%BA/"/>
     
       <category term="手上的事" scheme="http://lekee.cc/categories/%E6%89%8B%E4%B8%8A%E7%9A%84%E4%BA%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[新公司的名称里不能带科技两个字]]></title>
-    <link href="http://lekee.cc/2015/04/10/%E6%96%B0%E5%85%AC%E5%8F%B8%E7%9A%84%E5%90%8D%E7%A7%B0%E9%87%8C%E4%B8%8D%E8%83%BD%E5%B8%A6%E7%A7%91%E6%8A%80%E4%B8%A4%E4%B8%AA%E5%AD%97/"/>
-    <id>http://lekee.cc/2015/04/10/新公司的名称里不能带科技两个字/</id>
-    <published>2015-04-10T08:10:03.000Z</published>
-    <updated>2015-04-14T16:47:06.000Z</updated>
-    <content type="html"><![CDATA[<p>真弄不明白，为什么注册的公司名子里不能带科技两个字，叫网络信息，网络服务，网络技术有限公司都可以，就是不能叫网络科技有限公司。<br><a id="more"></a><br>这是为什么呢，我不明白。给工商局审核名称的工作人员打电话过去，她的回复是：“公司名称里要带科技，必须你们公司有在专利局申请过的专利，或者以你们公司的名义报过什么项目。注册的时候在公司名称里才可以加科技这两个字”。我勒了个去，我要是已经有公司了，我还在工商局注册什么公司啊？这不是开玩笑吗？<br>等我再进一步咨询下去的时候，我问：“以前都是以我个人名义开发过项目。”这个行不行？她回答我：“不行，必须要以你们公司的名义。”有这样的事吗？我再追问，那要什么级别的项目呢？国家级，省级，还是市级呢？她就什么都不知道了。然后不耐烦的告诉我，我这没有权利给你们公司审核名称。你去省工商局注册吧，然后我们公司就可以叫甘肃省乐可网络科技公司了，说省上比我这好注册呢。<br>我真的就不明白了，怎么会这样呢？是制度的问题还是下面业务理解问题呢？<br>最后我问了很多上海，深圳其他地方的同行，他们都告诉我说注册网络科技公司在他们那很容易。没有这些事，难道这是一个国家不同的公司注册制度？还是这些规定是地方上自己制定的吗？</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>真弄不明白，为什么注册的公司名子里不能带科技两个字，叫网络信息，网络服务，网络技术有限公司都可以，就是不能叫网络科技有限公司。<br>]]>
-    
-    </summary>
-    
-      <category term="公司注册" scheme="http://lekee.cc/tags/%E5%85%AC%E5%8F%B8%E6%B3%A8%E5%86%8C/"/>
-    
-      <category term="烦心" scheme="http://lekee.cc/tags/%E7%83%A6%E5%BF%83/"/>
-    
-      <category term="关于乐可" scheme="http://lekee.cc/categories/%E5%85%B3%E4%BA%8E%E4%B9%90%E5%8F%AF/"/>
     
   </entry>
   
