@@ -4,7 +4,7 @@
   <subtitle><![CDATA[走向世界！]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://lekee.cc/"/>
-  <updated>2015-09-30T16:43:18.000Z</updated>
+  <updated>2015-10-27T05:06:11.000Z</updated>
   <id>http://lekee.cc/</id>
   
   <author>
@@ -15,11 +15,48 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[可乐有备案了]]></title>
+    <title><![CDATA[天水跳蚤进入后端开发准备阶段]]></title>
+    <link href="http://lekee.cc/2015/10/27/%E5%A4%A9%E6%B0%B4%E8%B7%B3%E8%9A%A4%E8%BF%9B%E5%85%A5%E5%90%8E%E6%AE%B5%E5%BC%80%E5%8F%91%E5%87%86%E5%A4%87%E9%98%B6%E6%AE%B5/"/>
+    <id>http://lekee.cc/2015/10/27/天水跳蚤进入后段开发准备阶段/</id>
+    <published>2015-10-27T04:24:52.000Z</published>
+    <updated>2015-10-27T05:06:11.000Z</updated>
+    <content type="html"><![CDATA[<p>经过2个星期的努力，天水跳蚤即将转入后端开发阶段<br><a id="more"></a><br><img src="http://source.free-e.net/tsflea.com-dev.png" class="img-topic"><br>经过几个星期的紧张部署，天水跳蚤的前端部署工作基本接近尾声。<br>接下来需要团队对天水跳蚤的功能再进行探讨，做最后确认工作。<br>确定功能、布局和结构后转入下一步后端开发阶段。<br>在后端开发阶段中，前端继续做网站美化和用户体验优化。</p>
+<blockquote>
+<h2 id="前端目前待解决问题">前端目前待解决问题</h2><ol>
+<li>home-search 首页搜索表单页面居中</li>
+<li>登录和注册弹出窗口调用远程文件失效 bootstrap-&gt;model-&gt;remote 不起作用</li>
+<li>home-goods-category 分类图片添加鼠标划过图片变大效果JS &gt;参考：<a href="http://www.houserentals.com/" target="_blank" rel="external">http://www.houserentals.com/</a></li>
+<li>用户注册和登录页面按钮动画效果 参考：<a href="https://account.teambition.com/signup" target="_blank" rel="external">https://account.teambition.com/signup</a></li>
+</ol>
+<h2 id="关于开发：">关于开发：</h2><ul>
+<li>前端框架：Bootstrap</li>
+<li>前端项目创建：Yeoman</li>
+<li>前端代码托管：coding.net</li>
+</ul>
+</blockquote>
+<p>项目演示地址：<a href="http://tsflea.coding.io/" target="_blank" rel="external">tsflea.coding.io</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>经过2个星期的努力，天水跳蚤即将转入后端开发阶段<br>]]>
+    
+    </summary>
+    
+      <category term="tsflea.com" scheme="http://lekee.cc/tags/tsflea-com/"/>
+    
+      <category term="天水跳蚤" scheme="http://lekee.cc/tags/%E5%A4%A9%E6%B0%B4%E8%B7%B3%E8%9A%A4/"/>
+    
+      <category term="开发进度" scheme="http://lekee.cc/tags/%E5%BC%80%E5%8F%91%E8%BF%9B%E5%BA%A6/"/>
+    
+      <category term="天水跳蚤" scheme="http://lekee.cc/categories/%E5%A4%A9%E6%B0%B4%E8%B7%B3%E8%9A%A4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[乐可官网有备案了]]></title>
     <link href="http://lekee.cc/2015/10/01/%E5%8F%AF%E4%B9%90%E6%9C%89%E5%A4%87%E6%A1%88%E4%BA%86/"/>
     <id>http://lekee.cc/2015/10/01/可乐有备案了/</id>
     <published>2015-09-30T16:39:48.000Z</published>
-    <updated>2015-09-30T16:43:18.000Z</updated>
+    <updated>2015-10-27T04:46:03.000Z</updated>
     <content type="html"><![CDATA[<p>阿里做事就是效率，申请没几天。已经拿到备案号了。<br>乐可有自己的备案了，官网正在建设中。。。<br>以后用lekee.cc 就是访问公司的正式官方了～～</p>
 ]]></content>
     <summary type="html">
@@ -48,7 +85,7 @@
 <p>关于功能，用户发布物品，收藏物品、文章和活动<br>关于联系卖家可以用站内私信。<br>关于卖家信誉度的问题，可以用积分的方式。<br>一切都遵循从实际出发、尽可能的简化流程。<br>每个人的时间和生命都是宝贵的，<br>不必要浪费的时间我们绝对要珍惜！</p>
 <p>演示1：<a href="http://tsflea.coding.io" target="_blank" rel="external">http://tsflea.coding.io</a><br>演示2：<a href="http://tsflea-dev.coding.io" target="_blank" rel="external">http://tsflea-dev.coding.io</a></p>
 <blockquote>
-<p>项目仍在寻求感兴趣的小伙伴<br>如果你感兴趣请来电或发email<br>对天水跳蚤有什么建议发邮件 <a href="&#x6d;&#97;&#105;&#x6c;&#x74;&#111;&#58;&#x73;&#x65;&#114;&#x76;&#x69;&#x63;&#101;&#x40;&#116;&#115;&#x66;&#x6c;&#x65;&#x61;&#46;&#99;&#111;&#109;">&#x73;&#x65;&#114;&#x76;&#x69;&#x63;&#101;&#x40;&#116;&#115;&#x66;&#x6c;&#x65;&#x61;&#46;&#99;&#111;&#109;</a></p>
+<p>项目仍在寻求感兴趣的小伙伴<br>如果你感兴趣请来电或发email<br>对天水跳蚤有什么建议发邮件 <a href="&#x6d;&#97;&#x69;&#x6c;&#116;&#x6f;&#58;&#x73;&#101;&#x72;&#118;&#105;&#99;&#x65;&#64;&#x74;&#x73;&#102;&#108;&#101;&#x61;&#46;&#99;&#x6f;&#109;">&#x73;&#101;&#x72;&#118;&#105;&#99;&#x65;&#64;&#x74;&#x73;&#102;&#108;&#101;&#x61;&#46;&#99;&#x6f;&#109;</a></p>
 </blockquote>
 ]]></content>
     <summary type="html">
@@ -74,7 +111,7 @@
     <updated>2015-09-14T07:06:46.000Z</updated>
     <content type="html"><![CDATA[<p>最近不太接单子了，这几天一直再进行天水跳蚤的开发。<br>前端框架网站整体用bootstrap开发，部分地方可能会用到别的。<br><a id="more"></a><br>一个庞大的项目正在进行，但目前的开发工作只有我一个人。<br>从网站的功能、整体布局。到现在的开发。<br>这个过程是漫长的。现在网站还属于前端开发阶段。<br>天水跳蚤是一个简单、时尚、实用的二手信息发布平台。<br>网站主要功能栏目 物品，活动，博客<br>现在活动和博客的栏目页和内容页已经完成。</p>
 <blockquote>
-<p>天水跳蚤寻求项目合作伙伴<br>感兴趣请发邮箱 <a href="&#109;&#97;&#x69;&#108;&#x74;&#111;&#58;&#x72;&#x6f;&#x63;&#x6b;&#116;&#115;&#64;&#x73;&#105;&#x6e;&#97;&#46;&#x63;&#x6f;&#x6d;">&#x72;&#x6f;&#x63;&#x6b;&#116;&#115;&#64;&#x73;&#105;&#x6e;&#97;&#46;&#x63;&#x6f;&#x6d;</a></p>
+<p>天水跳蚤寻求项目合作伙伴<br>感兴趣请发邮箱 <a href="&#x6d;&#97;&#x69;&#108;&#116;&#111;&#58;&#114;&#x6f;&#99;&#x6b;&#116;&#115;&#x40;&#x73;&#x69;&#x6e;&#x61;&#46;&#x63;&#111;&#x6d;">&#114;&#x6f;&#99;&#x6b;&#116;&#115;&#x40;&#x73;&#x69;&#x6e;&#x61;&#46;&#x63;&#111;&#x6d;</a></p>
 </blockquote>
 ]]></content>
     <summary type="html">
@@ -472,27 +509,6 @@
       <category term="公司注册" scheme="http://lekee.cc/tags/%E5%85%AC%E5%8F%B8%E6%B3%A8%E5%86%8C/"/>
     
       <category term="关于乐可" scheme="http://lekee.cc/categories/%E5%85%B3%E4%BA%8E%E4%B9%90%E5%8F%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[lekee终于用评论了]]></title>
-    <link href="http://lekee.cc/2015/04/11/lekee%E7%BB%88%E4%BA%8E%E7%94%A8%E8%AF%84%E8%AE%BA%E4%BA%86/"/>
-    <id>http://lekee.cc/2015/04/11/lekee终于用评论了/</id>
-    <published>2015-04-11T09:52:23.000Z</published>
-    <updated>2015-04-14T16:48:48.000Z</updated>
-    <content type="html"><![CDATA[<p>多说真的不错！<br><a id="more"></a><br>这个blog再一点点的进化中，今天我给lekee加了多说的评论。<br>以后大家可以用自己的社交账号来评论了。<br>评论的内容还可以同步的自己的社交网站上。<br>真的很方便。我准备给自己的以后的项目都加入这个评论系统。<br>Very good!</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>多说真的不错！<br>]]>
-    
-    </summary>
-    
-      <category term="多说" scheme="http://lekee.cc/tags/%E5%A4%9A%E8%AF%B4/"/>
-    
-      <category term="评论" scheme="http://lekee.cc/tags/%E8%AF%84%E8%AE%BA/"/>
-    
-      <category term="手上的事" scheme="http://lekee.cc/categories/%E6%89%8B%E4%B8%8A%E7%9A%84%E4%BA%8B/"/>
     
   </entry>
   
